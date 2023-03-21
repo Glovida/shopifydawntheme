@@ -8,10 +8,10 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free Shipping with min. spend $50",
+            "text": "Free Delivery With Min. $79 Spend",
             "text_alignment": "center",
             "color_scheme": "accent-1",
-            "link": ""
+            "link": "shopify:\/\/policies\/shipping-policy"
           }
         }
       },
@@ -25,7 +25,7 @@
       "type": "header",
       "settings": {
         "color_scheme": "background-1",
-        "logo_position": "middle-left",
+        "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
