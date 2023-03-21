@@ -64,7 +64,7 @@
         "d2f2c642-6ade-41cc-a7f5-05dd620bcadc"
       ],
       "custom_css": [
-        "div {border: 0}"
+        "div {border: 0;}"
       ],
       "settings": {
         "layout": "grid",
@@ -78,8 +78,11 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
-        "title": "Glovida's Bestsellers",
+        "title": "Bestsellers",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
