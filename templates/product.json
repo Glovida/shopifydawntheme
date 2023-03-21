@@ -41,6 +41,26 @@
           "settings": {
           }
         },
+        "635b4a81-43a5-4f79-8feb-2cebf2b38037": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "uppercase",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
+          }
+        },
+        "39c60039-f8c9-4213-ba33-d842547e74b7": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "truck",
+            "heading_1": "Free Shipping Min. $79 Spend",
+            "icon_2": "chat_bubble",
+            "heading_2": "Pharmacist Available at +656276533",
+            "icon_3": "leaf",
+            "heading_3": "Expiry Date"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -66,6 +86,8 @@
         "dcd2851d-cf4e-4b88-ab11-4e27e68aaaca",
         "variant_picker",
         "quantity_selector",
+        "635b4a81-43a5-4f79-8feb-2cebf2b38037",
+        "39c60039-f8c9-4213-ba33-d842547e74b7",
         "buy_buttons",
         "description",
         "share"
