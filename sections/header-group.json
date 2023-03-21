@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free Delivery With Min. $79 Spend",
+            "text": "FREE DELIVERY WITH MIN. SPEND $79",
             "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": "shopify:\/\/policies\/shipping-policy"
