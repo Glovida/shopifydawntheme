@@ -64,7 +64,7 @@
         "d2f2c642-6ade-41cc-a7f5-05dd620bcadc"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
