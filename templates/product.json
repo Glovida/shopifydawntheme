@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -27,7 +28,7 @@
             "star_size": 15,
             "text_align": "flex-start",
             "product": "{{product}}",
-            "stars_text_empty": "No reviews"
+            "stars_text_empty": "No Reviews"
           }
         },
         "variant_picker": {
