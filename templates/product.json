@@ -55,11 +55,24 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "truck",
-            "heading_1": "Free Next Day Shipping (Min. $79 Spend)",
+            "heading_1": "Free Next Day Shipping (Local Min. $79\/Overseas Min. $300)",
             "icon_2": "chat_bubble",
             "heading_2": "Pharmacist Available at +6581015555",
             "icon_3": "leaf",
             "heading_3": "Expiry Date"
+          }
+        },
+        "d394443a-da38-4a25-861b-03e1fc759294": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": false
           }
         },
         "buy_buttons": {
@@ -89,6 +102,7 @@
         "quantity_selector",
         "635b4a81-43a5-4f79-8feb-2cebf2b38037",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
+        "d394443a-da38-4a25-861b-03e1fc759294",
         "buy_buttons",
         "description",
         "share"
