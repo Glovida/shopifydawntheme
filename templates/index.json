@@ -63,6 +63,9 @@
         "template--18198354034971__b6a7474f-9f38-4e8a-8bb8-7309907eedf0-167936860228ef8fdb-1",
         "d2f2c642-6ade-41cc-a7f5-05dd620bcadc"
       ],
+      "custom_css": [
+        "div {border: 0}"
+      ],
       "settings": {
         "layout": "grid",
         "slide_height": "adapt_image",
