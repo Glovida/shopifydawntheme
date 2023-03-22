@@ -11,15 +11,22 @@
             "heading": "",
             "menu": "footer"
           }
+        },
+        "1dbd2a2c-4920-41fc-a099-4447d53a81b5": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
-        "afac5979-d9fd-47dc-ab8b-e04817415991"
+        "afac5979-d9fd-47dc-ab8b-e04817415991",
+        "1dbd2a2c-4920-41fc-a099-4447d53a81b5"
       ],
       "settings": {
         "color_scheme": "accent-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Subscribe To Our Emails",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
