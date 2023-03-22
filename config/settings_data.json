@@ -292,8 +292,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "h2, .announcement-bar__message,.list-menu__item,.quick-add__submit,.button {text-transform: uppercase;}",
-      ".announcement-bar__message,.list-menu__item,.quick-add__submit,.button{font-size: 13px;}"
+      ".announcement-bar__message,.list-menu__item,.quick-add__submit,.button {text-transform: uppercase; font-size: 13px;}"
     ]
   }
 }
