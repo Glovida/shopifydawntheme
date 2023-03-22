@@ -23,6 +23,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "background-1",
         "logo_position": "top-center",
