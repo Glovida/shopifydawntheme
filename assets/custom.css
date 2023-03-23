@@ -10,3 +10,14 @@
 .wrapper .col {
   width: 32%;
 }
+
+.letterlist {
+  text-align: center; 
+  font-size: 23px; 
+  font-weight: bold; 
+  margin: 50px;
+}
+
+.letterlink {
+  margin: 10px;
+}
