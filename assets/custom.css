@@ -1,11 +1,10 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  text-align: center;
 }
 
 .col {
-  1;
+  flex: 1;
 }
 
 .wrapper .col {
