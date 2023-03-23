@@ -300,7 +300,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".h4,.quantity__label,.announcement-bar__message,.list-menu__item,.quick-add__submit,.button,.shopify-payment-button__button {text-transform: uppercase; font-size: 13px;}"
+      ".h4,.quantity__label,.announcement-bar__message,.list-menu__item,.quick-add__submit,.button,.shopify-payment-button__button {text-transform: uppercase; font-size: 13px;}",
+      "a{color: black;}"
     ]
   }
 }
