@@ -1,6 +1,7 @@
 <div>
-    <h3>A</h3>
+    
     <ul style="list-style: none;">
+      <li><h3>A</h3></li>
     {% for vendor in shop.vendors %}
       {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
         {% if vendor_first_letter == "A" %}
