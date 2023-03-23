@@ -1,4 +1,4 @@
-<div class="vendor-list" id="designers-a-to-z">
+<div class="vendor-list" id="brands-a-to-z">
     <ul>
         {% assign current = "" %}
         {% capture alphabet %}
@@ -16,7 +16,7 @@
             {% endfor %}
             {% if its_a_letter %}
                 {% unless vendor_first_letter == current %}
-                    <h3><span class="anchor" id="designers-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
+                    <h3><span class="anchor" id="brands-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
                 {% endunless %}
                 <li class="vendor-list-item">
                     <a href="/collections/{{ vendor | handleize }}/in-stock">{{ vendor }}</a>
@@ -24,7 +24,7 @@
             {% else %}
                 {% assign vendor_first_letter = "#" %}
                 {% unless vendor_first_letter == current %}
-                    <h3><span class="anchor" id="designers-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
+                    <h3><span class="anchor" id="brands-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
                 {% endunless %}
                 <li class="vendor-list-item">
                     <a href="/collections/{{ vendor | handleize }}/in-stock">{{ vendor }}</a>
