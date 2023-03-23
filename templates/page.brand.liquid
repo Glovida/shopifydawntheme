@@ -1,10 +1,93 @@
 <div>
-    
     <ul style="list-style: none;">
       <li><h3>A</h3></li>
     {% for vendor in shop.vendors %}
       {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
         {% if vendor_first_letter == "A" %}
+            <li class="vendor-list-item">
+              <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<div>
+    <ul style="list-style: none;">
+      <li><h3>A</h3></li>
+    {% for vendor in shop.vendors %}
+      {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+        {% if vendor_first_letter == "B" %}
+            <li class="vendor-list-item">
+              <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<div>
+    <ul style="list-style: none;">
+      <li><h3>A</h3></li>
+    {% for vendor in shop.vendors %}
+      {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+        {% if vendor_first_letter == "C" %}
+            <li class="vendor-list-item">
+              <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<div>
+    <ul style="list-style: none;">
+      <li><h3>A</h3></li>
+    {% for vendor in shop.vendors %}
+      {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+        {% if vendor_first_letter == "D" %}
+            <li class="vendor-list-item">
+              <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<div>
+    <ul style="list-style: none;">
+      <li><h3>A</h3></li>
+    {% for vendor in shop.vendors %}
+      {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+        {% if vendor_first_letter == "E" %}
+            <li class="vendor-list-item">
+              <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<div>
+    <ul style="list-style: none;">
+      <li><h3>A</h3></li>
+    {% for vendor in shop.vendors %}
+      {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+        {% if vendor_first_letter == "F" %}
+            <li class="vendor-list-item">
+              <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+
+<div>
+    <ul style="list-style: none;">
+      <li><h3>A</h3></li>
+    {% for vendor in shop.vendors %}
+      {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+        {% if vendor_first_letter == "G" %}
             <li class="vendor-list-item">
               <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
             </li>
