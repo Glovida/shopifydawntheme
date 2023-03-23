@@ -3,7 +3,7 @@
 <ul>
 {% for link in linklists.brands.links %}
   <li>
-  {% if link.title | slice: 0 contains "A" %}
+  {% if link.title | slice: 0, 1 contains "A" %}
     <a href="{{ link.url }}">{{ link.title }}</a>
   {% endif %}
   </li>
