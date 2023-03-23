@@ -59,7 +59,7 @@
             "icon_2": "chat_bubble",
             "heading_2": "Pharmacist Available at +6581015555",
             "icon_3": "leaf",
-            "heading_3": "Expiry Date"
+            "heading_3": "Expiry Date: {{ product.metafields.custom.expiry_date | metafield_text }}"
           }
         },
         "d394443a-da38-4a25-861b-03e1fc759294": {
