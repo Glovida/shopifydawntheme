@@ -1,4 +1,4 @@
-{% assign firstchar = link.title | slice: 0 %}
+{% assign firstchar = link.title | slice: 0, 1 %}
 
 <ul>
 {% for link in linklists.brands.links %}
