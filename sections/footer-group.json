@@ -52,7 +52,7 @@
         "1dbd2a2c-4920-41fc-a099-4447d53a81b5": {
           "type": "brand_information",
           "settings": {
-            "show_social": false
+            "show_social": true
           }
         }
       },
@@ -65,7 +65,7 @@
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe To Our Emails",
         "enable_follow_on_shop": false,
-        "show_social": true,
+        "show_social": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
