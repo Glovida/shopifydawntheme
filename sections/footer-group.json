@@ -15,7 +15,7 @@
         "1dbd2a2c-4920-41fc-a099-4447d53a81b5": {
           "type": "brand_information",
           "settings": {
-            "show_social": true
+            "show_social": false
           }
         }
       },
