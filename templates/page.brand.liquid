@@ -2,10 +2,10 @@
 
 <ul>
 {% for link in linklists.brands.links %}
-  <li>
   {% if firstchar contains "A" %}
-    <a href="{{ link.url }}">{{ link.title }}</a>
+    <li>
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    </li>
   {% endif %}
-  </li>
 {% endfor %}
 </ul>
