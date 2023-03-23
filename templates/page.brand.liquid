@@ -1,7 +1,5 @@
 {% assign firstchar = link.title | slice: 0 %}
 
-{{ firstchar }}
-
 <ul>
 {% for link in linklists.brands.links %}
   {% if firstchar contains "A" %}
