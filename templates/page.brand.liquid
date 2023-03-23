@@ -1,11 +1,36 @@
-{% assign firstchar = link.title | slice: 0 %}
-
-<ul>
-{% for link in linklists.brands.links %}
-  {% if firstchar contains "A" %}
-    <li>
-      <a href="{{ link.url }}">{{ link.title }}</a>
-    </li>
-  {% endif %}
-{% endfor %}
-</ul>
+<div class="vendor-list" id="designers-a-to-z">
+    <ul>
+        {% assign current = "" %}
+        {% capture alphabet %}
+            -A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z
+        {% endcapture %}
+        {% assign letters = alphabet | split: '-' %}
+        {% assign its_a_letter = false %}
+        {% for vendor in shop.vendors %}
+            {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+            {% for letter in letters %}
+                {% if vendor_first_letter == letter %}
+                    {% assign its_a_letter = true %}
+                    {% break %}
+                {% endif %}
+            {% endfor %}
+            {% if its_a_letter %}
+                {% unless vendor_first_letter == current %}
+                    <h3><span class="anchor" id="designers-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
+                {% endunless %}
+                <li class="vendor-list-item">
+                    <a href="/collections/{{ vendor | handleize }}/in-stock">{{ vendor }}</a>
+                </li>
+            {% else %}
+                {% assign vendor_first_letter = "#" %}
+                {% unless vendor_first_letter == current %}
+                    <h3><span class="anchor" id="designers-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
+                {% endunless %}
+                <li class="vendor-list-item">
+                    <a href="/collections/{{ vendor | handleize }}/in-stock">{{ vendor }}</a>
+                </li>
+            {% endif %}
+            {% assign current = vendor_first_letter %}
+        {% endfor %}
+    </ul>
+</div>
