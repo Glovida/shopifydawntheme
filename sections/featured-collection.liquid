@@ -46,9 +46,9 @@
   endif
 -%}
 
-<div data-aos="fade-up" class="color-{{ section.settings.color_scheme }} isolate gradient">
+<div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
-    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+    <div data-aos="fade-up" class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
       {%- if section.settings.title != blank -%}
         <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
       {%- endif -%}
@@ -97,7 +97,7 @@
         {%- endfor -%}
       </ul>
       {%- if show_mobile_slider or show_desktop_slider -%}
-        <div class="slider-buttons no-js-hidden">
+        <div data-aos="fade-up" class="slider-buttons no-js-hidden">
           <button
             type="button"
             class="slider-button slider-button--prev"
@@ -107,7 +107,7 @@
           >
             {% render 'icon-caret' %}
           </button>
-          <div class="slider-counter caption">
+          <div data-aos="fade-up" class="slider-counter caption">
             <span class="slider-counter--current">1</span>
             <span aria-hidden="true"> / </span>
             <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
@@ -127,7 +127,7 @@
     </slider-component>
 
     {%- if section.settings.show_view_all and more_in_collection -%}
-      <div class="center collection__view-all">
+      <div data-aos="fade-up" class="center collection__view-all">
         <a
           href="{{ section.settings.collection.url }}"
           class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
