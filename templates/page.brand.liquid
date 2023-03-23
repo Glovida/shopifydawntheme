@@ -5,7 +5,8 @@
       {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
         {% if vendor_first_letter == "A" %}
           <li class="vendor-list-item">
-                    <a href="/collections/{{ vendor | handleize }}/in-stock">{{ vendor }}</a>
+                    <h3><span class="anchor" id="brands-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
+                    <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
                 </li>
         {% endif %}
     {% endfor %}
