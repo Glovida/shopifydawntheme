@@ -1,5 +1,17 @@
 <div class="vendor-list" id="brands-a-to-z">
-    <ul>
+
+  <ul>
+    {% for vendor in shop.vendors %}
+      {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
+        {% if vendor_first_letter == "A" %}
+          <li class="vendor-list-item">
+                    <a href="/collections/{{ vendor | handleize }}/in-stock">{{ vendor }}</a>
+                </li>
+        {% endif %}
+    {% endfor %}
+  </ul>
+  
+  <ul>
         {% assign current = "" %}
         {% capture alphabet %}
             -A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z
