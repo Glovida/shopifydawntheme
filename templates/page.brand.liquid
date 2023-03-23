@@ -1,9 +1,9 @@
-{% assign linklist = linklists['brands'] %}
+{% assign firstchar = link.title | slice: 0 %}
 
 <ul>
 {% for link in linklists.brands.links %}
   <li>
-  {% if link.title | slice: 0 contains "A" %}
+  {% if firstchar contains "A" %}
     <a href="{{ link.url }}">{{ link.title }}</a>
   {% endif %}
   </li>
