@@ -1,10 +1,10 @@
 <div class="vendor-list" id="brands-a-to-z">
 
   <div>
+    <h3>A</h3>
     {% for vendor in shop.vendors %}
       {% assign vendor_first_letter = vendor | strip | upcase | slice : 0 %}
         {% if vendor_first_letter == "A" %}
-          <h3><span class="anchor" id="brands-{{ vendor_first_letter }}"></span>{{ vendor_first_letter }}</h3>
           <ul>
             <li class="vendor-list-item">
               <a href="/collections/{{ vendor | handleize }}">{{ vendor }}</a>
