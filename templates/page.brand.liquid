@@ -1,5 +1,9 @@
 {% assign linklist = linklists['brands'] %}
 
+<ul>
 {% for link in linklists.brands.links %}
+  <li>
   <a href="{{ link.url }}">{{ link.title }}</a>
+  </li>
 {% endfor %}
+</ul>
