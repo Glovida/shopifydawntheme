@@ -20,9 +20,3 @@ html{
   font-size: 25px; 
   font-weight: bold; 
 }
-
-#J {
-    display: block;
-    position: relative;
-    top: -30vh;
-}
