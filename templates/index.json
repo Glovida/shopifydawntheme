@@ -334,6 +334,60 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45": {
+      "type": "collection-list",
+      "blocks": {
+        "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "health"
+          }
+        },
+        "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beauty-1"
+          }
+        },
+        "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moms-kids"
+          }
+        },
+        "2c880ac4-04ea-4524-83f6-5d2bcb3fd5b8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "australian-brands"
+          }
+        },
+        "0869bcc9-6046-48a6-a84a-f931c51f50bf": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clinic-exclusives"
+          }
+        }
+      },
+      "block_order": [
+        "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-0",
+        "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-1",
+        "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-2",
+        "2c880ac4-04ea-4524-83f6-5d2bcb3fd5b8",
+        "0869bcc9-6046-48a6-a84a-f931c51f50bf"
+      ],
+      "settings": {
+        "title": "Categories",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -345,6 +399,7 @@
     "d3bded95-2a42-4b90-bc13-6e452c4f9102",
     "97b04a02-8fa4-41bf-acac-5c4826fda627",
     "baba2b51-4c09-4331-8843-27e31236b6b5",
-    "1680081647a1f64d34"
+    "1680081647a1f64d34",
+    "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45"
   ]
 }
