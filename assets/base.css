@@ -2993,3 +2993,9 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+/* Remove top, left and right borders on search bar */
+.search .field:after {
+    box-shadow: none;
+    border-bottom: 2px solid grey;
+}
