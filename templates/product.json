@@ -111,16 +111,13 @@
         "padding_bottom": 12
       }
     },
-    "1679384514f8928ea8": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
-        "heading": "You may also like",
+        "heading": "Others also bought",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -137,7 +134,6 @@
   },
   "order": [
     "main",
-    "1679384514f8928ea8",
     "related-products"
   ]
 }
