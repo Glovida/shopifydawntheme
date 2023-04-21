@@ -3,7 +3,7 @@
     "banner": {
       "type": "main-collection-banner",
       "custom_css": [
-        "* {text-align: center;}"
+        "div {text-align: center;}"
       ],
       "settings": {
         "show_collection_description": true,
