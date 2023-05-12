@@ -41,6 +41,7 @@
     },
     "118234a2-0e9e-4277-95c1-309ba7c88d52": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".exploremore {text-align: center; font-weight: bold; text-transform: uppercase;}",
         "div.scrollmenu {overflow: auto; white-space: nowrap; text-align: center;}",
