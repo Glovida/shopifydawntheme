@@ -404,7 +404,7 @@
       "custom_css": [
         ".c {padding: 2rem; max-width: 1200px; margin: auto;}",
         ".c h1,.f {display: flex; justify-content: center;}",
-        ".c h1 {font-size: 30px;}",
+        ".c h1 {font-size: 30px; text-align: center;}",
         ".f {width: 100%;}",
         ".l,.r {width: 50%;}",
         "@media (max-width: 768px) {.f {flex-direction: column-reverse; } .l, .r {width: 100%; } .l .i {flex-wrap: wrap; }}",
