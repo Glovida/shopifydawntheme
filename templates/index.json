@@ -402,17 +402,18 @@
     "f7589ce5-2df5-4372-87b9-291ccab76bee": {
       "type": "custom-liquid",
       "custom_css": [
-        ".c{padding:2rem}",
-        ".c h1,.f{display:flex;justify-content:center}",
-        ".c h1{font:2rem\/1.2 sans-serif}",
-        ".f{width:100%}",
-        ".l,.r{width:50%}",
-        "@media(max-width:768px){.f{flex-direction:column-reverse}.l,.r{width:100%}}",
-        ".l .i{display:flex;flex-wrap:wrap}",
-        ".i img{max-height:5rem}",
-        ".t{font:1rem\/1.2 sans-serif;width:100%}",
-        ".t .h{font-weight:600}",
-        ".r img{width:100%}"
+        ".c {padding: 2rem; max-width: 1200px; margin: auto;}",
+        ".c h1,.f {display: flex; justify-content: center;}",
+        ".c h1 {font: 2rem\/1.2 sans-serif;}",
+        ".f {width: 100%;}",
+        ".l,.r {width: 50%;}",
+        "@media (max-width: 768px) {.f {flex-direction: column-reverse; } .l, .r {width: 100%; } .l .i {flex-wrap: wrap; }}",
+        ".l .i {display: flex; padding: 20px;}",
+        ".i img {max-height: 80px;}",
+        ".t {font: 1rem\/1.2 sans-serif; width: 100%;}",
+        ".t .h {font-weight: 600; font-size: 30px;}",
+        ".r img {width: 100%;}",
+        ".d {font-size: 15px;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"c\">\n    <h1>PHARMACY MADE EASY<\/h1>\n    <div class=\"f\">\n        <div class=\"l\">\n            <div class=\"i\">\n                <img src=\"https:\/\/stg.glovida-rx.com.sg\/icon_price_transparency.png\">\n                <div class=\"t\">\n                    <div class=\"h\">Guaranteed Price Transparency<\/div>\n                    <div class=\"d\">Know the price of medications before paying and choose only what you need.<\/div>\n                <\/div>\n            <\/div>\n<div class=\"i\">\n                <img src=\"https:\/\/stg.glovida-rx.com.sg\/icon_price_transparency.png\">\n                <div class=\"t\">\n                    <div class=\"h\">Guaranteed Price Transparency<\/div>\n                    <div class=\"d\">Know the price of medications before paying and choose only what you need.<\/div>\n                <\/div>\n            <\/div>\n<div class=\"i\">\n                <img src=\"https:\/\/stg.glovida-rx.com.sg\/icon_price_transparency.png\">\n                <div class=\"t\">\n                    <div class=\"h\">Guaranteed Price Transparency<\/div>\n                    <div class=\"d\">Know the price of medications before paying and choose only what you need.<\/div>\n                <\/div>\n            <\/div>\n        <\/div>\n        <div class=\"r\">\n            <img src=\"https:\/\/stg.glovida-rx.com.sg\/landing_placeholder.png\">\n        <\/div>\n    <\/div>\n<\/div>",
