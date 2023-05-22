@@ -129,6 +129,8 @@
     "show_cart_note": true,
     "cart_drawer_collection": "bestsellers",
     "checkout_logo_image": "shopify:\/\/shop_images\/glovida-logo2_2x-01.png",
+    "checkout_accent_color": "#692e7f",
+    "checkout_button_color": "#692e7f",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
