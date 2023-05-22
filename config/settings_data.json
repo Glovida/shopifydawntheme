@@ -128,9 +128,7 @@
     "show_vendor": false,
     "show_cart_note": true,
     "cart_drawer_collection": "bestsellers",
-    "checkout_header_image": "shopify:\/\/shop_images\/repeat-pattern-of-a-toy-turtle-on-a-blue-background.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/glovida-logo2_2x-01.png",
-    "checkout_body_background_image": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
