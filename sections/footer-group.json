@@ -35,24 +35,8 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 16,
         "padding_bottom": 16
-      }
-    },
-    "118234a2-0e9e-4277-95c1-309ba7c88d52": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        ".exploremore {text-align: center; font-weight: bold; text-transform: uppercase;}",
-        "div.scrollmenu {overflow: auto; white-space: nowrap; text-align: center;}",
-        "div.scrollmenu a {display: inline-block; text-align: center; padding: 14px; text-decoration: none;}",
-        "div.scrollmenu a:hover {text-decoration: underline;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"exploremore\">\n  <span>Explore More<\/span>\n<\/div> \n<div class=\"scrollmenu\">\n  <a href=\"#home\">Home<\/a>\n  <a href=\"#news\">News<\/a>\n  <a href=\"#contact\">Contact<\/a>\n  <a href=\"#about\">About<\/a>\n  <a href=\"#about\">About<\/a>\n  <a href=\"#about\">About<\/a>\n  <a href=\"#about\">About<\/a>\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     },
     "footer": {
@@ -94,7 +78,6 @@
   },
   "order": [
     "00d92334-05cf-46a3-bcff-117fcc58f420",
-    "118234a2-0e9e-4277-95c1-309ba7c88d52",
     "footer"
   ]
 }
