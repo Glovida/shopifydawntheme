@@ -431,22 +431,22 @@
         "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "What is Glovida?",
+            "heading_size": "h2"
           }
         },
         "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>In the ever-evolving online marketplace, a beacon of health and beauty shines brightly - welcome to the world of Glovida!<\/p><p> Our team, backed by years of expertise in healthcare, medical fields, marketing, and sales has curated a selection of bestsellers and hard-to-find items, all at attractive prices. Whether it's top-tier supplements or other wellness essentials, Glovida brings the best of health and beauty right to your doorstep.<\/p>",
             "text_style": "body"
           }
         },
         "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "More About Glovida",
+            "button_link": "shopify:\/\/pages\/about-glovida"
           }
         }
       },
