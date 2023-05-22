@@ -424,6 +424,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "6bdebe95-539d-487d-adae-ab9f9d7eba9a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-0",
+        "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-1",
+        "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -437,6 +480,7 @@
     "97b04a02-8fa4-41bf-acac-5c4826fda627",
     "baba2b51-4c09-4331-8843-27e31236b6b5",
     "1680081647a1f64d34",
-    "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45"
+    "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
+    "6bdebe95-539d-487d-adae-ab9f9d7eba9a"
   ]
 }
