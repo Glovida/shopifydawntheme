@@ -100,6 +100,25 @@
         "padding_bottom": 0
       }
     },
+    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "* {box-sizing: border-box; margin: 0;}",
+        ".a {display: flex; flex-direction: column; align-items: center;}",
+        ".a h1,.a h2 {text-align: center; margin-bottom: 20px;}",
+        ".a h1 {font-weight: 700;}",
+        ".b {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; justify-items: center; margin: auto;}",
+        ".c {display: flex; align-items: center; width: 380px; height: 100px; gap: 5px;}",
+        ".c img {width: 50px; height: 50px;}",
+        "@media (max-width: 800px) {.c {flex-direction: column; width: 100px; height: 100px; } .c img {width: 40px; height: 40px; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"a\"><h1>Find a treatment<\/h1><h2 style=\"font-size: 20px\">Choose a symptom to find the right OTC medication for you<\/h2><div class=\"b\" style=\"text-align: center; line-height: 17px; font-weight: bold;\">\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/mucus.png?v=1684814196\"><p>Nasal Congestion<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cough.png?v=1684814196\"><p>Cough & Cold<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cold-sore.png?v=1684814196\"><p>Sores & Ulcers<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/intestine.png?v=1684814196\"><p>Digestive Issues<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eczema.png?v=1684814196\"><p>Eczema<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eye-drops_1_405b40d7-c6f7-4500-92dc-e221fadc6c7a.png?v=1684814196\"><p>Dry Eyes<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/immunity.png?v=1684814196\"><p>Immunity Boosters<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/femur.png?v=1684814196\"><p>Joint Pain<\/p><\/div>\n<div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/female-symbol.png?v=1684814197\"><p>Feminine Care<\/p><\/div><\/div><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "0af3f324-40f5-43a2-9622-a432f7f99e76": {
       "type": "collection-list",
       "blocks": {
@@ -497,6 +516,7 @@
     },
     "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".body {margin: 0; padding: 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}",
         "h1 {margin-bottom: 20px;}",
@@ -512,30 +532,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b": {
-      "type": "custom-liquid",
-      "custom_css": [
-        "* {box-sizing: border-box; margin: 0;}",
-        ".a {display: flex; flex-direction: column; align-items: center;}",
-        ".a h1,.a h2 {text-align: center; margin-bottom: 20px;}",
-        ".a h1 {font-weight: 700;}",
-        ".b {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; justify-items: center; margin: auto;}",
-        ".c {display: flex; align-items: center; border: 1px solid; width: 380px; height: 100px; gap: 5px;}",
-        ".c img {width: 50px; height: 50px;}",
-        "@media (max-width: 800px) {.c {flex-direction: column; width: 100px; height: 100px; } .c img {width: 40px; height: 40px; }}"
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"a\"><h1>Your Header Here<\/h1><h2>Your Description Here<\/h2><div class=\"b\">\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/mucus.png?v=1684814196\"><p>Nasal Congestion<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cough.png?v=1684814196\"><p>Cough & Cold<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cold-sore.png?v=1684814196\"><p>Cold Sores & Ulcers<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/intestine.png?v=1684814196\"><p>Digestive Issues<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eczema.png?v=1684814196\"><p>Eczema<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eye-drops_1_405b40d7-c6f7-4500-92dc-e221fadc6c7a.png?v=1684814196\"><p>Dry Eyes<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/immunity.png?v=1684814196\"><p>Immunity Boosters<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/femur.png?v=1684814196\"><p>Joint Pain<\/p><\/div>\n<div class=\"c\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/female-symbol.png?v=1684814197\"><p>Feminine Care<\/p><\/div><\/div><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0",
     "f7589ce5-2df5-4372-87b9-291ccab76bee",
+    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b",
     "0af3f324-40f5-43a2-9622-a432f7f99e76",
     "a5a3a75e-ac06-4ed5-bad1-8a212d77eaa7",
     "featured_collection",
@@ -547,7 +549,6 @@
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
     "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
-    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2",
-    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b"
+    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2"
   ]
 }
