@@ -492,20 +492,21 @@
         "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2": {
       "type": "custom-liquid",
       "custom_css": [
-        "body {margin: 0; padding: 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}",
+        ".body {margin: 0; padding: 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}",
         "h1 {margin-bottom: 20px;}",
-        ".flex-container {display: flex; flex-wrap: wrap; justify-content: center;}",
-        ".flex-container img {width: 800px; height: 800px; object-fit: cover;}",
-        "@media screen and (max-width: 800px) {.flex-container img {width: 100%; height: auto; }}"
+        ".flex-container {display: flex; flex-wrap: wrap; justify-content: space-around; max-width: 1200px;}",
+        ".flex-container img {width: calc(33.33% - 20px); height: calc(33.33% - 20px); object-fit: cover; margin: 10px;}",
+        "h1 {font-weight: bold;}",
+        "@media screen and (max-width: 800px) {.flex-container img {width: calc(100% \/ 3 - 20px); height: calc(100% \/ 3 - 20px); }}"
       ],
       "settings": {
-        "custom_liquid": "<!DOCTYPE html>\n<html>\n<head>\n    <link rel=\"stylesheet\" type=\"text\/css\" href=\"styles.css\">\n<\/head>\n<body>\n    <h1>Your Header Here<\/h1>\n    <div class=\"flex-container\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/nasal.png?v=1684811416\" alt=\"Nasal Congestion\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/coughncold.png?v=1684811416\" alt=\"Cough and Cold\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/coldsores.png?v=1684811416\" alt=\"Cold Sores and Ulcers\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/digestion.png?v=1684811416\" alt=\"Digestion Issues\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eczemaz.png?v=1684811416\" alt=\"Eczema\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/dryeyes.png?v=1684811416\" alt=\"Dry Eyes\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/immunityboosters.png?v=1684811416\" alt=\"Immunity Boosters\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/jointpain.png?v=1684811416\" alt=\"Joint Pain\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/feminine.png?v=1684811415\" alt=\"Feminine Care\">\n    <\/div>\n<\/body>\n<\/html>",
+        "custom_liquid": "<div class=\"body\">\n    <h1>Find A Treatment<\/h1>\n    <h2>Choose a symptom to find the right OTC medication for you<\/h2>\n    <div class=\"flex-container\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/nasal.png?v=1684811416\" alt=\"Nasal Congestion\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/coughncold.png?v=1684811416\" alt=\"Cough and Cold\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/coldsores.png?v=1684811416\" alt=\"Cold Sores and Ulcers\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/digestion.png?v=1684811416\" alt=\"Digestion Issues\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eczemaz.png?v=1684811416\" alt=\"Eczema\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/dryeyes.png?v=1684811416\" alt=\"Dry Eyes\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/immunityboosters.png?v=1684811416\" alt=\"Immunity Boosters\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/jointpain.png?v=1684811416\" alt=\"Joint Pain\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/feminine.png?v=1684811415\" alt=\"Feminine Care\">\n    <\/div>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
