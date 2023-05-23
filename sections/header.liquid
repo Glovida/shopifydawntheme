@@ -204,10 +204,6 @@
                                       {%- endif -%}
                                     </li>
                                   {%- endfor -%}
-                                <li><a href="https://stg.glovida-rx.com.sg/customer" class="header__menu-item list-menu__item link link--text focus-inset">
-                    <span>Glovida-RX</span>
-                  </a>
-      </li>
                                 </ul>
                               </div>
                             </div>
@@ -429,6 +425,10 @@
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
         <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
+                  <li><a href="https://stg.glovida-rx.com.sg/customer" class="header__menu-item list-menu__item link link--text focus-inset">
+                    <span>Glovida-RX</span>
+                  </a>
+      </li>
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
