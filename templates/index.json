@@ -512,6 +512,24 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".body {margin: 0; padding: 0; box-sizing: border-box; display: flex; flex-direction: column; align-items: center;}",
+        "h1, h2 {text-align: center;}",
+        "h1 {font-weight: bold; margin-bottom: 20px;}",
+        ".grid-container {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; justify-items: center; margin: auto;}",
+        ".grid-item {display: flex; align-items: center; justify-content: space-evenly; border: 1px solid black;}",
+        ".grid-item img {width: 50px; height: 50px;}",
+        "@media screen and (max-width: 800px) {.grid-item {flex-direction: column; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"body\">\n    <h1>Your Header Here<\/h1>\n    <h2>Your Description Here<\/h2>\n    <div class=\"grid-container\">\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n        <div class=\"grid-item\">\n            <img src=\"logo1.png\" alt=\"Logo 1\">\n            <p>Description 1<\/p>\n        <\/div>\n    <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -528,6 +546,7 @@
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
     "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
-    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2"
+    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2",
+    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b"
   ]
 }
