@@ -147,8 +147,8 @@
         "template--18198354034971__0af3f324-40f5-43a2-9622-a432f7f99e76-16793688583f9649a0-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "Shop By Category",
+        "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "background-1",
