@@ -538,7 +538,6 @@
     },
     "97cf7afa-d7fe-47be-b331-1fe4d9f256cf": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-0": {
           "type": "heading",
@@ -572,11 +571,11 @@
         "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-2"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
