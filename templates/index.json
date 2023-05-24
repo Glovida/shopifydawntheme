@@ -535,52 +535,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "97cf7afa-d7fe-47be-b331-1fe4d9f256cf": {
-      "type": "image-banner",
-      "blocks": {
-        "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-0",
-        "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-1",
-        "template--18633575137563__97cf7afa-d7fe-47be-b331-1fe4d9f256cf-168489998060da64d4-2"
-      ],
-      "settings": {
-        "image_overlay_opacity": 10,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
@@ -598,7 +552,6 @@
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
     "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
-    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2",
-    "97cf7afa-d7fe-47be-b331-1fe4d9f256cf"
+    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2"
   ]
 }
