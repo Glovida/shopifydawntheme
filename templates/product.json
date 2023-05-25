@@ -45,9 +45,9 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "truck",
-            "heading_1": "<a href=\"https:\/\/glovida-testing.myshopify.com\/policies\/shipping-policy\">Free Next Day Shipping (Local Min. $79\/Overseas Min. $300)<\/a>",
+            "heading_1": "Free Next Day Shipping (Local Min. $79\/Overseas Min. $300)",
             "icon_2": "chat_bubble",
-            "heading_2": "Pharmacist Available at <a href=\"http:\/\/wa.me\/+6581015555\">+65 81015555<\/a>",
+            "heading_2": "Pharmacist Available at +65 81015555",
             "icon_3": "leaf",
             "heading_3": "Expiry Date: {{ product.metafields.custom.expiry_date | metafield_text }}"
           }
@@ -56,7 +56,7 @@
           "type": "complementary",
           "settings": {
             "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
+            "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
             "products_per_page": 3,
