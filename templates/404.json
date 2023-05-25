@@ -6,51 +6,53 @@
       "settings": {
       }
     },
-    "e7f469ee-884b-4421-8488-5d28a5ba793f": {
-      "type": "rich-text",
+    "48933330-d693-4078-a6b1-794fb3d58016": {
+      "type": "image-with-text",
       "blocks": {
-        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-0": {
+        "template--18633575006491__48933330-d693-4078-a6b1-794fb3d58016-1685002771fa63b7b9-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>404 Page Not Found<\/p>",
+            "heading": "404 Page Not Found",
             "heading_size": "h1"
           }
         },
-        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-1": {
+        "template--18633575006491__48933330-d693-4078-a6b1-794fb3d58016-1685002771fa63b7b9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Looks like our site's hamsters have stopped running. Let's find a way to kickstart their wheel!<\/p>"
+            "text": "<p>Looks like our site's hamsters have stopped running. Let's find a way to kickstart their wheel!<\/p>",
+            "text_style": "body"
           }
         },
-        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-2": {
+        "template--18633575006491__48933330-d693-4078-a6b1-794fb3d58016-1685002771fa63b7b9-2": {
           "type": "button",
           "settings": {
             "button_label": "Continue Shopping",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "button_label_2": "Contact Us",
-            "button_link_2": "shopify:\/\/pages\/contact",
-            "button_style_secondary_2": true
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
       "block_order": [
-        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-0",
-        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-1",
-        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-2"
+        "template--18633575006491__48933330-d693-4078-a6b1-794fb3d58016-1685002771fa63b7b9-0",
+        "template--18633575006491__48933330-d693-4078-a6b1-794fb3d58016-1685002771fa63b7b9-1",
+        "template--18633575006491__48933330-d693-4078-a6b1-794fb3d58016-1685002771fa63b7b9-2"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/JiVE_an_exhausted_hamster_that_has_stopped_running_in_a_hamster_5b747400-38d7-4a36-af0d-4894799c3d491.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "e7f469ee-884b-4421-8488-5d28a5ba793f"
+    "48933330-d693-4078-a6b1-794fb3d58016"
   ]
 }
