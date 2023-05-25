@@ -1,1 +1,56 @@
-{"sections":{"main":{"type":"main-404","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "e7f469ee-884b-4421-8488-5d28a5ba793f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>404 Page Not Found<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looks like our site's hamsters have stopped running. Let's find a way to kickstart their wheel!<\/p>"
+          }
+        },
+        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Continue Shopping",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "Contact Us",
+            "button_link_2": "shopify:\/\/pages\/contact",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": [
+        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-0",
+        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-1",
+        "template--18633575006491__e7f469ee-884b-4421-8488-5d28a5ba793f-16850027807d00bcb6-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e7f469ee-884b-4421-8488-5d28a5ba793f"
+  ]
+}
