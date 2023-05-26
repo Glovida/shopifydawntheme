@@ -142,6 +142,7 @@
   align-self: flex-end;
   grid-row-start: 3;
   justify-self: flex-start;
+  display: none;
 }
 
 .card__badge.top {
