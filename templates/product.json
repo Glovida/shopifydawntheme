@@ -96,6 +96,9 @@
         "description",
         "share"
       ],
+      "custom_css": [
+        ".adp-discount-table{border: 0px;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "small",
