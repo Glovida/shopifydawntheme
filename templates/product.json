@@ -97,7 +97,7 @@
         "share"
       ],
       "custom_css": [
-        ".adp-discount-table{border: 0px;}"
+        ".adp-discount-table {border: 1px;}"
       ],
       "settings": {
         "enable_sticky_info": true,
