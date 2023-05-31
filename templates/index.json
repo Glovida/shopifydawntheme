@@ -535,6 +535,38 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "8539a1cb-fe81-4a08-8a8f-3569e7a49b83": {
+      "type": "yx-desktop-banner",
+      "blocks": {
+        "template--18633575137563__8539a1cb-fe81-4a08-8a8f-3569e7a49b83-1685505966b3a0360c-0": {
+          "type": "image_picker",
+          "settings": {
+            "yx_image_picker": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--18633575137563__8539a1cb-fe81-4a08-8a8f-3569e7a49b83-1685505966b3a0360c-0"
+      ],
+      "settings": {
+      }
+    },
+    "75fedfa6-2449-47c9-92ac-18a12d1567aa": {
+      "type": "yx-mobile-banner",
+      "blocks": {
+        "template--18633575137563__75fedfa6-2449-47c9-92ac-18a12d1567aa-1685505971cb617e46-0": {
+          "type": "image_picker",
+          "settings": {
+            "yx_image_picker": "shopify:\/\/shop_images\/a-bridge-sitting-in-thick-pink-and-purple-fog.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--18633575137563__75fedfa6-2449-47c9-92ac-18a12d1567aa-1685505971cb617e46-0"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -552,6 +584,8 @@
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
     "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
-    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2"
+    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2",
+    "8539a1cb-fe81-4a08-8a8f-3569e7a49b83",
+    "75fedfa6-2449-47c9-92ac-18a12d1567aa"
   ]
 }
