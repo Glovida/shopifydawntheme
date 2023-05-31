@@ -27,14 +27,14 @@
 {% endschema %}
 
 {% if section.settings.desktop_image != blank %}
-<div class="desktop-banner">
+<div data-aos="fade-up" class="desktop-banner">
   <a href="{{ section.settings.desktop_link }}">
     <img src="{{ section.settings.desktop_image | img_url: 'master' }}" alt="Desktop banner image">
   </a>
 </div>
 {% endif %}
 {% if section.settings.mobile_image != blank %}
-<div class="mobile-banner">
+<div data-aos="fade-up" class="mobile-banner">
   <a href="{{ section.settings.mobile_link }}">
     <img src="{{ section.settings.mobile_image | img_url: 'master' }}" alt="Mobile banner image">
   </a>
