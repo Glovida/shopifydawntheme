@@ -21,6 +21,16 @@
         "type": "url",
         "id": "mobile_link",
         "label": "Enter your mobile banner link"
+      },
+      {
+        "type": "range",
+        "id": "overlay_opacity",
+        "label": "Image overlay opacity",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 50,
+        "unit": "%"
       }
     ]
   }
@@ -29,6 +39,7 @@
 {% if section.settings.desktop_image != blank %}
 <div class="desktop-banner">
   <a href="{{ section.settings.desktop_link }}">
+    <div class="image-overlay" style="opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}"></div>
     <img src="{{ section.settings.desktop_image | img_url: 'master' }}" alt="Desktop banner image">
   </a>
 </div>
@@ -36,6 +47,7 @@
 {% if section.settings.mobile_image != blank %}
 <div class="mobile-banner">
   <a href="{{ section.settings.mobile_link }}">
+    <div class="image-overlay" style="opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}"></div>
     <img src="{{ section.settings.mobile_image | img_url: 'master' }}" alt="Mobile banner image">
   </a>
 </div>
@@ -43,22 +55,21 @@
 
 <style>
   /* This is the desktop version */
-  .desktop-banner {
+  .desktop-banner, .mobile-banner {
+    position: relative;
+  }
+  .desktop-banner img, .mobile-banner img {
     display: block;
-    text-align: center; /* center the image if it's smaller than the container */
+    max-width: 100%;
   }
-  .desktop-banner img {
-    max-width: 1200px; /* adjust to your needs */
+  .desktop-banner .image-overlay, .mobile-banner .image-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
   }
-  /* This is the mobile version */
-  .mobile-banner {
-    display: none;
-    text-align: center; /* center the image if it's smaller than the container */
-  }
-  .mobile-banner img {
-    max-width: 100%; /* adjust to your needs */
-  }
-
   /* This is a CSS media query for screen sizes 768px and below, typically sizes for tablets and smartphones */
   @media only screen and (max-width: 768px) {
     .desktop-banner {
