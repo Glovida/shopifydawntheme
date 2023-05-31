@@ -31,10 +31,18 @@
   /* This is the desktop version */
   .desktop-banner {
     display: block;
+    text-align: center; /* center the image if it's smaller than the container */
+  }
+  .desktop-banner img {
+    max-width: 1200px; /* adjust to your needs */
   }
   /* This is the mobile version */
   .mobile-banner {
     display: none;
+    text-align: center; /* center the image if it's smaller than the container */
+  }
+  .mobile-banner img {
+    max-width: 100%; /* adjust to your needs */
   }
 
   /* This is a CSS media query for screen sizes 768px and below, typically sizes for tablets and smartphones */
