@@ -37,17 +37,15 @@
 {% endschema %}
 
 {% if section.settings.desktop_image != blank %}
-<div class="desktop-banner">
+<div class="desktop-banner banner" style="--opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}">
   <a href="{{ section.settings.desktop_link }}">
-    <div class="image-overlay" style="opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}"></div>
     <img src="{{ section.settings.desktop_image | img_url: 'master' }}" alt="Desktop banner image">
   </a>
 </div>
 {% endif %}
 {% if section.settings.mobile_image != blank %}
-<div class="mobile-banner">
+<div class="mobile-banner banner" style="--opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}">
   <a href="{{ section.settings.mobile_link }}">
-    <div class="image-overlay" style="opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}"></div>
     <img src="{{ section.settings.mobile_image | img_url: 'master' }}" alt="Mobile banner image">
   </a>
 </div>
@@ -55,20 +53,24 @@
 
 <style>
   /* This is the desktop version */
-  .desktop-banner, .mobile-banner {
+  .banner {
     position: relative;
+    overflow: hidden;
   }
-  .desktop-banner img, .mobile-banner img {
+  .banner img {
     display: block;
     max-width: 100%;
   }
-  .desktop-banner .image-overlay, .mobile-banner .image-overlay {
+  .banner::after {
+    content: '';
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: #000;
+    background: rgba(0, 0, 0, var(--opacity));
+    pointer-events: none;
   }
   /* This is a CSS media query for screen sizes 768px and below, typically sizes for tablets and smartphones */
   @media only screen and (max-width: 768px) {
