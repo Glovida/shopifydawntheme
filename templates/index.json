@@ -1,7 +1,17 @@
 {
   "sections": {
+    "3a6fb512-c445-4edf-a8cd-e61c84165338": {
+      "type": "banner-image",
+      "settings": {
+        "desktop_image": "shopify:\/\/shop_images\/banner-purveyor-20210511-1200-x-450.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/94fbf67439ad752fb081980170678047.jpg",
+        "desktop_link": "shopify:\/\/collections\/all",
+        "mobile_link": "shopify:\/\/collections\/thankyou"
+      }
+    },
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--18198354034971__b6a7474f-9f38-4e8a-8bb8-7309907eedf0-167936860228ef8fdb-0": {
           "type": "slide",
@@ -535,14 +545,10 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "3a6fb512-c445-4edf-a8cd-e61c84165338": {
-      "type": "banner-image",
-      "settings": {
-      }
     }
   },
   "order": [
+    "3a6fb512-c445-4edf-a8cd-e61c84165338",
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0",
     "f7589ce5-2df5-4372-87b9-291ccab76bee",
     "87f8f474-ace5-45dd-9bfe-eb86d6c2087b",
@@ -557,7 +563,6 @@
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
     "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
-    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2",
-    "3a6fb512-c445-4edf-a8cd-e61c84165338"
+    "7f68a0a1-b4ca-4972-b266-6a5cf4a1d6a2"
   ]
 }
