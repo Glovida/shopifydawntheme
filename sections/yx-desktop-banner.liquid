@@ -1,12 +1,38 @@
+<div class="page-width yx-desktop-banner-container yx-mobile-hidden">
+ <div class="container-full">
+   {% for block in section.blocks limit: 1 %}
+    <img class="img-responsive lazyload"  data-src="{{ block.settings.yx_image_picker | img_url: '2000x' }}" />
+   {% endfor %}
+</div>
+</div>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "YX Desktop Banner",
+    "class": "yx-desktop-banner-section",
+    "max_blocks": 1,
+    "blocks": [
+    {
+      "type": "image_picker",
+      "name": "Desktop Banner Image",
+      "settings": [
+        {
+          "label": "Desktop Banner Image",
+          "id": "yx_image_picker",
+          "type": "image_picker"
+        }
+      ]
+    }
+  ],
+ "presets": [
+    {
+      "name": "YX Desktop Banner",
+      "category": "Home",
+"blocks":[{"type" : "image_picker"}]
+    }
+]
   }
 {% endschema %}
-
 {% stylesheet %}
 {% endstylesheet %}
-
 {% javascript %}
 {% endjavascript %}
