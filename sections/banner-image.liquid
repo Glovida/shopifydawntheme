@@ -1,12 +1,49 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Banner Images",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "desktop_image",
+        "label": "Upload your desktop image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_image",
+        "label": "Upload your mobile image"
+      }
+    ]
   }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+{% if section.settings.desktop_image != blank %}
+<div class="desktop-banner">
+  <img src="{{ section.settings.desktop_image | img_url: 'master' }}" alt="Desktop banner image">
+</div>
+{% endif %}
+{% if section.settings.mobile_image != blank %}
+<div class="mobile-banner">
+  <img src="{{ section.settings.mobile_image | img_url: 'master' }}" alt="Mobile banner image">
+</div>
+{% endif %}
 
-{% javascript %}
-{% endjavascript %}
+<style>
+  /* This is the desktop version */
+  .desktop-banner {
+    display: block;
+  }
+  /* This is the mobile version */
+  .mobile-banner {
+    display: none;
+  }
+
+  /* This is a CSS media query for screen sizes 768px and below, typically sizes for tablets and smartphones */
+  @media only screen and (max-width: 768px) {
+    .desktop-banner {
+      display: none;
+    }
+    .mobile-banner {
+      display: block;
+    }
+  }
+</style>
