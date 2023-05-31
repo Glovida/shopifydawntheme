@@ -37,14 +37,14 @@
 {% endschema %}
 
 {% if section.settings.desktop_image != blank %}
-<div class="desktop-banner banner" style="--opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}">
+<div class="desktop-banner">
   <a href="{{ section.settings.desktop_link }}">
     <img src="{{ section.settings.desktop_image | img_url: 'master' }}" alt="Desktop banner image">
   </a>
 </div>
 {% endif %}
 {% if section.settings.mobile_image != blank %}
-<div class="mobile-banner banner" style="--opacity: {{ section.settings.overlay_opacity | divided_by: 100 }}">
+<div class="mobile-banner">
   <a href="{{ section.settings.mobile_link }}">
     <img src="{{ section.settings.mobile_image | img_url: 'master' }}" alt="Mobile banner image">
   </a>
@@ -53,25 +53,22 @@
 
 <style>
   /* This is the desktop version */
-  .banner {
-    position: relative;
-    overflow: hidden;
-  }
-  .banner img {
+  .desktop-banner {
     display: block;
-    max-width: 100%;
+    text-align: center; /* center the image if it's smaller than the container */
   }
-  .banner::after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, var(--opacity));
-    pointer-events: none;
+  .desktop-banner img {
+    max-width: 1200px; /* adjust to your needs */
   }
+  /* This is the mobile version */
+  .mobile-banner {
+    display: none;
+    text-align: center; /* center the image if it's smaller than the container */
+  }
+  .mobile-banner img {
+    max-width: 100%; /* adjust to your needs */
+  }
+
   /* This is a CSS media query for screen sizes 768px and below, typically sizes for tablets and smartphones */
   @media only screen and (max-width: 768px) {
     .desktop-banner {
