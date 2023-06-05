@@ -530,7 +530,7 @@
     "04ecc04d-40f1-4388-93a0-c65e98a8865a": {
       "type": "custom-liquid",
       "custom_css": [
-        ".com {font-size: 20px; text-align: center;}",
+        ".com {font-size: 2.4rem; text-align: center;}",
         ".counter {font-weight: bold;}"
       ],
       "settings": {
