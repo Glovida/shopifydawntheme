@@ -530,11 +530,11 @@
     "04ecc04d-40f1-4388-93a0-c65e98a8865a": {
       "type": "custom-liquid",
       "custom_css": [
-        ".com {font-size: 20px;}",
-        ".counter {font-weight: bold; text-align: center;}"
+        ".com {font-size: 20px; text-align: center;}",
+        ".counter {font-weight: bold;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"com\">\nBe Part Of Our Growing Community Of Over\n<span class=\"counter\" \ndata-target=\"20000\">0<\/span>\nGlo-getters Today!\n<\/div>\n\n<script>\n  const counter = document.querySelector('.counter');\n  const target = counter.getAttribute('data-target');\n  let counterNum = 0;\n  let duration = 3000; \/\/ Duration in milliseconds\n\n  const counterSpeed = +target \/ duration;\n\n  function counterAnimate() {\n    if (counterNum < target) {\n      counterNum += counterSpeed;\n      counter.innerText = Math.ceil(counterNum);\n      requestAnimationFrame(counterAnimate);\n    } else {\n      counter.innerText = target;\n    }\n  }\n\n  \/\/ Create a new Intersection Observer instance\n  let observer = new IntersectionObserver((entries, observer) => {\n    \/\/ Loop over the entries\n    entries.forEach(entry => {\n      \/\/ If the element is visible\n      if (entry.isIntersecting) {\n        counterAnimate();\n        \/\/ Stop observing the target\n        observer.unobserve(counter);\n      }\n    });\n  });\n\n  \/\/ Start observing an element\n  observer.observe(counter);\n<\/script>",
+        "custom_liquid": "<div class=\"com\">\nBe Part Of Our Growing Community Of Over\n<span class=\"counter\" \ndata-target=\"20000\">0<\/span>\nGlo-getters Today!\n<\/div>\n\n<script>\n  const counter = document.querySelector('.counter');\n  const target = counter.getAttribute('data-target');\n  let counterNum = 0;\n  let duration = 200; \/\/ Duration in milliseconds\n\n  const counterSpeed = +target \/ duration;\n\n  function counterAnimate() {\n    if (counterNum < target) {\n      counterNum += counterSpeed;\n      counter.innerText = Math.ceil(counterNum);\n      requestAnimationFrame(counterAnimate);\n    } else {\n      counter.innerText = target;\n    }\n  }\n\n  \/\/ Create a new Intersection Observer instance\n  let observer = new IntersectionObserver((entries, observer) => {\n    \/\/ Loop over the entries\n    entries.forEach(entry => {\n      \/\/ If the element is visible\n      if (entry.isIntersecting) {\n        counterAnimate();\n        \/\/ Stop observing the target\n        observer.unobserve(counter);\n      }\n    });\n  });\n\n  \/\/ Start observing an element\n  observer.observe(counter);\n<\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
