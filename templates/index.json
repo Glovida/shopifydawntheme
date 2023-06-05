@@ -377,25 +377,15 @@
         "padding_bottom": 36
       }
     },
-    "2809a83d-faa8-4861-92e0-e150e9bc5612": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18633575137563__2809a83d-faa8-4861-92e0-e150e9bc5612-16847332598d7e0037-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Be Part Of Our Growing Community Of Over <strong>20,000<\/strong> Glo-getters Today!<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "template--18633575137563__2809a83d-faa8-4861-92e0-e150e9bc5612-16847332598d7e0037-0"
+    "04ecc04d-40f1-4388-93a0-c65e98a8865a": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".com {font-size: 2.4rem; text-align: center;}",
+        ".counter {font-weight: bold;}"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "custom_liquid": "<div class=\"com\">\nBe Part Of Our Growing Community Of Over\n<span class=\"counter\" \ndata-target=\"20000\">0<\/span>\nGlo-getters Today!\n<\/div>\n\n<script>\n  const counter = document.querySelector('.counter');\n  const target = counter.getAttribute('data-target');\n  let counterNum = 0;\n  let duration = 200; \/\/ Duration in milliseconds\n\n  const counterSpeed = +target \/ duration;\n\n  function counterAnimate() {\n    if (counterNum < target) {\n      counterNum += counterSpeed;\n      counter.innerText = Math.ceil(counterNum);\n      requestAnimationFrame(counterAnimate);\n    } else {\n      counter.innerText = target;\n    }\n  }\n\n  \/\/ Create a new Intersection Observer instance\n  let observer = new IntersectionObserver((entries, observer) => {\n    \/\/ Loop over the entries\n    entries.forEach(entry => {\n      \/\/ If the element is visible\n      if (entry.isIntersecting) {\n        counterAnimate();\n        \/\/ Stop observing the target\n        observer.unobserve(counter);\n      }\n    });\n  });\n\n  \/\/ Start observing an element\n  observer.observe(counter);\n<\/script>",
         "color_scheme": "background-1",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -526,19 +516,6 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
-    },
-    "04ecc04d-40f1-4388-93a0-c65e98a8865a": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".com {font-size: 2.4rem; text-align: center;}",
-        ".counter {font-weight: bold;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"com\">\nBe Part Of Our Growing Community Of Over\n<span class=\"counter\" \ndata-target=\"20000\">0<\/span>\nGlo-getters Today!\n<\/div>\n\n<script>\n  const counter = document.querySelector('.counter');\n  const target = counter.getAttribute('data-target');\n  let counterNum = 0;\n  let duration = 200; \/\/ Duration in milliseconds\n\n  const counterSpeed = +target \/ duration;\n\n  function counterAnimate() {\n    if (counterNum < target) {\n      counterNum += counterSpeed;\n      counter.innerText = Math.ceil(counterNum);\n      requestAnimationFrame(counterAnimate);\n    } else {\n      counter.innerText = target;\n    }\n  }\n\n  \/\/ Create a new Intersection Observer instance\n  let observer = new IntersectionObserver((entries, observer) => {\n    \/\/ Loop over the entries\n    entries.forEach(entry => {\n      \/\/ If the element is visible\n      if (entry.isIntersecting) {\n        counterAnimate();\n        \/\/ Stop observing the target\n        observer.unobserve(counter);\n      }\n    });\n  });\n\n  \/\/ Start observing an element\n  observer.observe(counter);\n<\/script>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -553,10 +530,9 @@
     "d3bded95-2a42-4b90-bc13-6e452c4f9102",
     "97b04a02-8fa4-41bf-acac-5c4826fda627",
     "baba2b51-4c09-4331-8843-27e31236b6b5",
-    "2809a83d-faa8-4861-92e0-e150e9bc5612",
+    "04ecc04d-40f1-4388-93a0-c65e98a8865a",
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
-    "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
-    "04ecc04d-40f1-4388-93a0-c65e98a8865a"
+    "6bdebe95-539d-487d-adae-ab9f9d7eba9a"
   ]
 }
