@@ -459,5 +459,12 @@
     "links": {
       "powered_by_shopify": " "
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "empty_state_subtitle": "Visit Glovida now!"
+      }
+    }
   }
 }
