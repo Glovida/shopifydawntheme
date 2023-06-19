@@ -39,7 +39,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/beauty-1",
+            "link": "shopify:\/\/collections\/beauty",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -431,7 +431,7 @@
         "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "beauty-1"
+            "collection": "beauty"
           }
         },
         "template--18198354034971__73600f1f-c8e6-49ab-8dbc-8e98f34d5c45-1681281124d2b68301-2": {
