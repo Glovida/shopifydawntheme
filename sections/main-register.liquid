@@ -135,10 +135,10 @@
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}
-    <div class="clearfix large_form">
-        <label for="customer_birthday">Birthday</label>
-        <input type="date" id="customer_birthday" name="customer[note][birthday]" />
-    </div>
+        <div id="birthday-wrapper" class="clearfix large_form">
+            <label for="birthday" class="label">Birthday</label>
+            <input type="date" value="" name="customer[note][birthday]" id="birthday" class="text" size="30" />
+        </div>
     <button>
       {{ 'customer.register.submit' | t }}
     </button>
