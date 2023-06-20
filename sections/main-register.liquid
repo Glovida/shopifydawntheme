@@ -135,10 +135,23 @@
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}
-        <div id="birthday-wrapper" class="clearfix large_form">
-            <label for="birthday" class="label">Birthday</label>
-            <input type="date" value="" name="customer[note][birthday]" id="birthday" class="text" size="30" />
-        </div>
+    <div class="field" id="birthday-wrapper">
+      <input
+        type="date"
+        name="customer[note][birthday]"
+        id="RegisterForm-Birthday"
+        {% if form.note.birthday %}
+            value="{{ form.note.birthday }}"
+        {% endif %}
+        autocomplete="bday"
+        placeholder="{{ 'customer.register.birthday' | t }}"
+        class="text"
+        size="30"
+      >
+      <label for="RegisterForm-Birthday" class="label">
+        {{ 'customer.register.birthday' | t }}
+      </label>
+    </div>
     <button>
       {{ 'customer.register.submit' | t }}
     </button>
