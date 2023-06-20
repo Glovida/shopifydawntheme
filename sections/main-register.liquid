@@ -134,6 +134,10 @@
         {{ form.errors.translated_fields.password | capitalize }}
         {{ form.errors.messages.password }}.
       </span>
+            <div id="birthday-wrapper" class="clearfix large_form">
+                <label for="birthday" class="label">Birthday</label>
+                <input type="date" value="" name="customer[note][birthday]" id="birthday" class="text" size="30" />
+            </div>
     {%- endif -%}
     <button>
       {{ 'customer.register.submit' | t }}
