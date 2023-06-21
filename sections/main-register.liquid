@@ -138,7 +138,7 @@
     <div class="field" id="birthday-wrapper">
       <input
         type="date"
-        name="customer[note][birthday]"
+        name="customer[note]"
         id="RegisterForm-Birthday"
         {% if form.note.birthday %}
             value="{{ form.note.birthday }}"
@@ -152,6 +152,7 @@
         {{ 'customer.register.birthday' | t }}
       </label>
     </div>
+  <p class="birthday-note">Enjoy special discounts on your birthday month when you share your birthday with us!</p>
     <button>
       {{ 'customer.register.submit' | t }}
     </button>
