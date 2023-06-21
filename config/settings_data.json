@@ -307,7 +307,8 @@
       "a {color: black;}",
       ".collection-hero__title {text-transform: uppercase;}",
       ".card__information {display: flex; flex-direction: column; justify-content: space-between;}",
-      ".card__heading {flex-grow: 1;}"
+      ".card__heading {flex-grow: 1;}",
+      ".price {display: flex; flex-direction: column;}"
     ]
   }
 }
