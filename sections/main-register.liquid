@@ -137,12 +137,11 @@
     {%- endif -%}
     <div class="field" id="birthday-wrapper">
       <input
-        type="text"
+        type="date"
         name="customer[note]"
         id="RegisterForm-Birthday"
-        pattern="\d{4}-\d{2}-\d{2}"
-        {% if form.note %}
-            value="{{ form.note }}"
+        {% if form.note.birthday %}
+            value="{{ form.note.birthday }}"
         {% endif %}
         autocomplete="bday"
         placeholder="{{ 'customer.register.birthday' | t }}"
@@ -152,8 +151,8 @@
       <label for="RegisterForm-Birthday" class="label">
         {{ 'customer.register.birthday' | t }}
       </label>
+      <p class="birthday-note">Enjoy special discounts on your birthday month when you share your birthday with us!</p>
     </div>
-  <p class="birthday-note">Enjoy special discounts on your birthday month when you share your birthday with us!</p>
     <button>
       {{ 'customer.register.submit' | t }}
     </button>
