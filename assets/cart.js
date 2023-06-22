@@ -210,21 +210,3 @@ if (!customElements.get('cart-note')) {
       }
   });
 };
-
-document.addEventListener('DOMContentLoaded', (event) => {
-  const cartQtyInputs = document.querySelectorAll('.quantity__input');
-
-  if (cartQtyInputs) {
-    cartQtyInputs.forEach(inputEl => {
-      const variantId = inputEl.dataset.quantityVariantId;
-
-      fetch(`/products/${variantId}.js`)
-        .then(response => response.json())
-        .then(data => {
-          if (data.product.metafields.inventory.max_quantity) {
-            inputEl.setAttribute('max', data.product.metafields.inventory.max_quantity);
-          }
-        });
-    });
-  }
-});
