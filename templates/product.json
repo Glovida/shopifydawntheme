@@ -3,6 +3,14 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -22,13 +30,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
           }
         },
         "635b4a81-43a5-4f79-8feb-2cebf2b38037": {
@@ -83,11 +84,11 @@
         }
       },
       "block_order": [
+        "vendor",
         "title",
         "price",
         "variant_picker",
         "quantity_selector",
-        "vendor",
         "635b4a81-43a5-4f79-8feb-2cebf2b38037",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
         "d394443a-da38-4a25-861b-03e1fc759294",
