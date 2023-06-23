@@ -110,23 +110,34 @@
         "padding_bottom": 0
       }
     },
-    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b": {
-      "type": "custom-liquid",
+    "featured_collection": {
+      "type": "featured-collection",
       "custom_css": [
-        "* {box-sizing: border-box; margin: 0;}",
-        ".a {display: flex; flex-direction: column; align-items: center;}",
-        ".a h1,.a h2 {text-align: center; margin-bottom: 20px;}",
-        ".a h1 {font-weight: 700;}",
-        ".b {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; justify-items: center; margin: auto;}",
-        ".c {display: flex; align-items: center; width: 380px; height: 100px; gap: 5px;}",
-        ".c img {width: 50px; height: 50px;}",
-        "@media (max-width: 800px) {.c {flex-direction: column; width: 100px; height: 100px; } .c img {width: 40px; height: 40px; }}"
+        "h2 {text-align: center;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"a\">\n    <h1>Find a treatment<\/h1>\n    <h2 style=\"font-size: 20px\">\n        Choose a symptom to find the right OTC medication for you\n    <\/h2>\n    <div class=\"b\" style=\"text-align: center; line-height: 17px; font-weight: bold;\">\n<a href=\"\/collections\/allergy-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/mucus.png?v=1684814196\">\n            <p>Nasal Congestion<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/cough-cold\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cough.png?v=1684814196\">\n            <p>Cough & Cold<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/sores-and-ulcers\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cold-sore.png?v=1684814196\">\n            <p>Sores & Ulcers<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/probiotics-digestive-health\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/intestine.png?v=1684814196\">\n            <p>Digestive Issues<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/eczema-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eczema.png?v=1684814196\">\n            <p>Eczema<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/eye-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eye-drops_1_405b40d7-c6f7-4500-92dc-e221fadc6c7a.png?v=1684814196\">\n            <p>Dry Eyes<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/immunity-boosters\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/immunity.png?v=1684814196\">\n            <p>Immunity Boosters<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/joint-health\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/femur.png?v=1684814196\">\n            <p>Joint Pain<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/feminine-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/female-symbol.png?v=1684814197\">\n            <p>Feminine Care<\/p>\n        <\/div>\n<\/a>\n    <\/div>\n<\/div>\n\n<script>\n  AOS.init();\n  const elements = document.querySelectorAll('.c, .i, .h, .d');\n  let delay = 0;\n  elements.forEach(el => {\n    el.setAttribute('data-aos', 'fade-in');\n    el.setAttribute('data-aos-delay', String(delay));\n    delay += 50;\n  });\n<\/script>",
+        "title": "Bestsellers",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bestsellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 36
       }
     },
     "0af3f324-40f5-43a2-9622-a432f7f99e76": {
@@ -208,34 +219,23 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b": {
+      "type": "custom-liquid",
       "custom_css": [
-        "h2 {text-align: center;}"
+        "* {box-sizing: border-box; margin: 0;}",
+        ".a {display: flex; flex-direction: column; align-items: center;}",
+        ".a h1,.a h2 {text-align: center; margin-bottom: 20px;}",
+        ".a h1 {font-weight: 700;}",
+        ".b {display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; justify-items: center; margin: auto;}",
+        ".c {display: flex; align-items: center; width: 380px; height: 100px; gap: 5px;}",
+        ".c img {width: 50px; height: 50px;}",
+        "@media (max-width: 800px) {.c {flex-direction: column; width: 100px; height: 100px; } .c img {width: 40px; height: 40px; }}"
       ],
       "settings": {
-        "title": "Bestsellers",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "bestsellers",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "custom_liquid": "<div class=\"a\">\n    <h1>Find a treatment<\/h1>\n    <h2 style=\"font-size: 20px\">\n        Choose a symptom to find the right OTC medication for you\n    <\/h2>\n    <div class=\"b\" style=\"text-align: center; line-height: 17px; font-weight: bold;\">\n<a href=\"\/collections\/allergy-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/mucus.png?v=1684814196\">\n            <p>Nasal Congestion<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/cough-cold\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cough.png?v=1684814196\">\n            <p>Cough & Cold<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/sores-and-ulcers\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cold-sore.png?v=1684814196\">\n            <p>Sores & Ulcers<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/probiotics-digestive-health\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/intestine.png?v=1684814196\">\n            <p>Digestive Issues<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/eczema-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eczema.png?v=1684814196\">\n            <p>Eczema<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/eye-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eye-drops_1_405b40d7-c6f7-4500-92dc-e221fadc6c7a.png?v=1684814196\">\n            <p>Dry Eyes<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/immunity-boosters\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/immunity.png?v=1684814196\">\n            <p>Immunity Boosters<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/joint-health\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/femur.png?v=1684814196\">\n            <p>Joint Pain<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/feminine-care\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/female-symbol.png?v=1684814197\">\n            <p>Feminine Care<\/p>\n        <\/div>\n<\/a>\n    <\/div>\n<\/div>\n\n<script>\n  AOS.init();\n  const elements = document.querySelectorAll('.c, .i, .h, .d');\n  let delay = 0;\n  elements.forEach(el => {\n    el.setAttribute('data-aos', 'fade-in');\n    el.setAttribute('data-aos-delay', String(delay));\n    delay += 50;\n  });\n<\/script>",
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "078a4620-da96-4488-a167-91ffeb8708ab": {
@@ -522,10 +522,10 @@
     "3a6fb512-c445-4edf-a8cd-e61c84165338",
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0",
     "f7589ce5-2df5-4372-87b9-291ccab76bee",
-    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b",
+    "featured_collection",
     "0af3f324-40f5-43a2-9622-a432f7f99e76",
     "a5a3a75e-ac06-4ed5-bad1-8a212d77eaa7",
-    "featured_collection",
+    "87f8f474-ace5-45dd-9bfe-eb86d6c2087b",
     "078a4620-da96-4488-a167-91ffeb8708ab",
     "d3bded95-2a42-4b90-bc13-6e452c4f9102",
     "97b04a02-8fa4-41bf-acac-5c4826fda627",
