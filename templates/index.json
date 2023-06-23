@@ -516,6 +516,15 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "07d983ce-d3dd-45f3-82a4-15bd2616d988": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script src=\"https:\/\/static.elfsight.com\/platform\/platform.js\" data-use-service-core defer><\/script>\n<div class=\"elfsight-app-1b65295f-0d05-457e-a28a-a7970534b003\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -533,6 +542,7 @@
     "04ecc04d-40f1-4388-93a0-c65e98a8865a",
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
-    "6bdebe95-539d-487d-adae-ab9f9d7eba9a"
+    "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
+    "07d983ce-d3dd-45f3-82a4-15bd2616d988"
   ]
 }
