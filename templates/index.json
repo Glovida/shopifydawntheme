@@ -519,8 +519,11 @@
     },
     "07d983ce-d3dd-45f3-82a4-15bd2616d988": {
       "type": "custom-liquid",
+      "custom_css": [
+
+      ],
       "settings": {
-        "custom_liquid": "<script src=\"https:\/\/static.elfsight.com\/platform\/platform.js\" data-use-service-core defer><\/script>\n<div class=\"elfsight-app-1b65295f-0d05-457e-a28a-a7970534b003\"><\/div>",
+        "custom_liquid": "<script src=\"https:\/\/static.elfsight.com\/platform\/platform.js\" data-use-service-core defer><\/script>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
