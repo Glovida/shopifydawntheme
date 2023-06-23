@@ -26,9 +26,8 @@
         },
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Limited To {{ product.vendor }} Qty Per Order",
+            "text": "Limited To {{ product.metafields.inventory.max_quantity.value }} Qty Per Order",
             "text_style": "uppercase"
           }
         },
