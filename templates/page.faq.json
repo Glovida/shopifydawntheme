@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".main-page-title {display: none;}"
+      ],
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "a9d54150-ed63-4e60-9cf2-384a7f8e939a": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is it mandatory for me to activate my account?",
+            "icon": "question_mark",
+            "row_content": "<p>As we have upgraded to a new platform, account holders will have to activate new accounts if you'd like to continue using the points earned from our rewards program. However, activation is not mandatory.<\/p><p><\/p><p>Do take note that use of all vouchers and points can only be done when you are logged in to your account.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I have to change my password?",
+            "icon": "question_mark",
+            "row_content": "<p>You can use your existing password if you wish to do so.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When do I have to do this by?",
+            "icon": "question_mark",
+            "row_content": "<p>You can activate your new account at any time.<\/p>",
+            "page": ""
+          }
+        },
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I have to re-enter all my details? (Address, phone no, email, etc?)",
+            "icon": "question_mark",
+            "row_content": "<p>There is no need to re-enter all your details again as they had been migrated securely to our new website. All you need to do is to enter a new password and click \"Activate account\".<\/p>",
+            "page": ""
+          }
+        },
+        "05bcc122-90d5-417d-82ec-45866f7acd17": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What would happen to my points after I set up the new account?",
+            "icon": "question_mark",
+            "row_content": "<p>Your points will remain as it is. Feel free to use them whenever you like.<\/p>",
+            "page": ""
+          }
+        },
+        "65a0148a-4f58-4a2d-b0c5-659e1d6261a8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When do my points expire?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, all points automatically expire in 180 days. That’s 6 long months! So you have time to earn the points and redeem for the rewards you want. There will be no extensions to points that have expired, so do log in often and enjoy your perks.<\/p>",
+            "page": ""
+          }
+        },
+        "14f7e636-e2bf-477e-bed8-c43344149e0d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the validity of the promo code?",
+            "icon": "question_mark",
+            "row_content": "<p>There is no expiry date for the promo code till further notice.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-0",
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-1",
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-2",
+        "template--19501484343579__a9d54150-ed63-4e60-9cf2-384a7f8e939a-16874938778c8e6235-3",
+        "05bcc122-90d5-417d-82ec-45866f7acd17",
+        "65a0148a-4f58-4a2d-b0c5-659e1d6261a8",
+        "14f7e636-e2bf-477e-bed8-c43344149e0d"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "{{ page.title }}",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a9d54150-ed63-4e60-9cf2-384a7f8e939a"
+  ]
+}
