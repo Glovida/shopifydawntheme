@@ -241,10 +241,19 @@
                     data-cart-quantity="{{ cart_qty }}"
                     data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                     min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                  {% comment %}        
                     {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
                       data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                       max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
                     {% endif %}
+                  {% endcomment %}
+                    {%- if product.metafields.inventory.max_quantity -%}
+                      data-max="{{ product.metafields.inventory.max_quantity }}"
+                      max="{{ product.metafields.inventory.max_quantity }}"
+                    {% else %}
+                       data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                        max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                    {%- endif %}
                     step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
                     value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                     form="{{ product_form_id }}"
