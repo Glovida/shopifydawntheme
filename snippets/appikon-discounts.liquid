@@ -128,11 +128,28 @@ FILES:
 {% endraw %}
 
 <script type="text/javascript">
-    window.appikon = {};
+    window.appikon = {
+        customer: {}
+    };
 
     {% if customer %}
-    window.appikon.customer_tags = "{{customer.tags | join: ','}}";
-    window.appikon.customer_id = "{{customer.id}}";
+    window.appikon.customer.tags = "{{customer.tags | join: ','}}";
+    window.appikon.customer.id = "{{customer.id}}";
+    window.appikon.customer.first_name = "{{customer.first_name}}";
+    window.appikon.customer.last_name = "{{customer.last_name}}";
+    window.appikon.customer.phone = "{{customer.phone}}";
+    {% endif %}
+
+    {% if customer.current_company %}
+    window.appikon.customer.company = {};
+    window.appikon.customer.company.id = "{{customer.current_company.id}}";
+    window.appikon.customer.company.name = "{{customer.current_company.name}}"
+    {% endif %}
+
+    {% if customer.current_location %}
+    window.appikon.customer.location = {};
+    window.appikon.customer.location.id = "{{customer.current_location.id}}";
+    window.appikon.customer.location.shipping_address = {{customer.current_location.shipping_address | json}};
     {% endif %}
 
     {% if template contains 'product' or product %}
