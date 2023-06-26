@@ -404,7 +404,8 @@
       "last_name": "姓氏",
       "email": "电子邮件",
       "password": "密码",
-      "submit": "创建"
+      "submit": "创建",
+      "birthday": "生日"
     },
     "reset_password": {
       "title": "重置账户密码",
