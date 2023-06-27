@@ -88,6 +88,7 @@
     },
     "f7589ce5-2df5-4372-87b9-291ccab76bee": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".c {padding: 2rem; max-width: 1200px; margin: auto;}",
         ".c h1,.f {display: flex; justify-content: center;}",
