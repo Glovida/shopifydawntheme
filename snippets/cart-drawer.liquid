@@ -286,9 +286,18 @@
                                 {% # theme-check-disable %}
                                 data-cart-quantity="{{ cart | item_count_for_variant: item.variant.id }}"
                                 min="{{ item.variant.quantity_rule.min }}"
+  {% comment %}
                                 {% if item.variant.quantity_rule.max != null %}
                                   max="{{ item.variant.quantity_rule.max }}"
                                 {% endif %}
+                      {% endcomment %}
+                      {%- if product.metafields.inventory.max_quantity -%}
+                      data-max="{{ product.metafields.inventory.max_quantity }}"
+                      max="{{ product.metafields.inventory.max_quantity }}"
+                    {% else %}
+                       data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                        max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                    {%- endif %}
                                 step="{{ item.variant.quantity_rule.increment }}"
                                 {% # theme-check-enable %}
                                 aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
