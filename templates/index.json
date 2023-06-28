@@ -198,11 +198,18 @@
           "settings": {
             "collection": "clinic-exclusives"
           }
+        },
+        "998c1a6c-16ef-431a-96e9-4ddd06808df6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moms-kids"
+          }
         }
       },
       "block_order": [
         "template--18198354034971__a5a3a75e-ac06-4ed5-bad1-8a212d77eaa7-16793762117c7f74c1-0",
-        "template--18198354034971__a5a3a75e-ac06-4ed5-bad1-8a212d77eaa7-16793762117c7f74c1-1"
+        "template--18198354034971__a5a3a75e-ac06-4ed5-bad1-8a212d77eaa7-16793762117c7f74c1-1",
+        "998c1a6c-16ef-431a-96e9-4ddd06808df6"
       ],
       "custom_css": [
 
