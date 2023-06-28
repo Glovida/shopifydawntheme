@@ -380,7 +380,7 @@
     "baba2b51-4c09-4331-8843-27e31236b6b5": {
       "type": "featured-blog",
       "custom_css": [
-        ".article-card__excerpt{display:none;}"
+        ".article-card__excerpt {display: none;}"
       ],
       "settings": {
         "heading": "Latest Articles",
