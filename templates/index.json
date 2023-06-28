@@ -141,6 +141,18 @@
         "padding_bottom": 36
       }
     },
+    "74288d6b-aa9c-4463-877a-1446456da026": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"f\">\n    <div class=\"l\">\n        <div class=\"wa\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/moneyhands_1.webp?v=1687929738\" alt=\"Logo of 2 hands holding a coin\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">More Than 500 Products Available<\/div>\n                <div class=\"d\">We offer a vast selection of health and beauty products that won't break the bank, making wellness accessible to everyone.<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wb\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/bundle2_1.webp?v=1687929738\" alt=\"Logo of 3 boxes stacked together\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Cost Savings With Bundles<\/div>\n                <div class=\"d\">Maximize your budget with Glovida's value-packed bundles, designed to give you more for less.<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n    <div class=\"k\">\n        <div class=\"wc\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/memberlogo.webp?v=1687929441\" alt=\"Logo a member in a group\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Become A Glo-Getter<\/div>\n                <div class=\"d\">Sign up as a member with us and get 10% off your first order. Accumulate points to enjoy even greater savings.<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wd\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/icon_free_consultation_1.webp?v=1687929738\" alt=\"Logo of a pharmacist\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Looking For Affordable Medications?<\/div>\n                <div class=\"d\">Find out more about our E-Pharmacy services at <a href=\"https:\/\/glovda-rx.com.sg\">glovda-rx.com.sg<\/a>, or contact our friendly pharmacist via Whatsapp at <a href=https:\/\/wa.me\/+6581015555>+65 81015555<\/a>.<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n<\/div>\n\n<style>\n.f {\n    display: flex;\n    justify-content: space-around;\n    max-width: 1100px;\n    margin: auto;\n}\n.l, .k {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding: 20px;\n    height: 100%;\n}\n.wa, .wb, .wc, .wd {\n    display: flex;\n    align-items: flex-start;\n    gap: 1rem;\n    padding: 1rem;\n}\n.i img {\n    height: 80px;\n    object-fit: cover;\n}\n.t {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 100%;\n}\n.h {\n    font-weight: 600;\n    font-size: 20px;\n    margin: 0.5rem 0;\n}\n.d {\n    margin: 0.5rem 0;\n    font-size: 15px;\n}\n@media (max-width: 768px) {\n    .f {\n        flex-direction: column;\n    }\n    .l, .k {\n        width: 100%;\n        padding: 0;\n    }\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "0af3f324-40f5-43a2-9622-a432f7f99e76": {
       "type": "collection-list",
       "blocks": {
@@ -365,18 +377,6 @@
         "padding_bottom": 36
       }
     },
-    "74288d6b-aa9c-4463-877a-1446456da026": {
-      "type": "custom-liquid",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"f\">\n    <div class=\"l\">\n        <div class=\"wa\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/moneyhands_1.webp?v=1687929738\" alt=\"Logo of 2 hands holding a coin\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">More Than 500 Products Available<\/div>\n                <div class=\"d\">We offer a vast selection of health and beauty products that won't break the bank, making wellness accessible to everyone.<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wb\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/bundle2_1.webp?v=1687929738\" alt=\"Logo of 3 boxes stacked together\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Cost Savings With Bundles<\/div>\n                <div class=\"d\">Maximize your budget with Glovida's value-packed bundles, designed to give you more for less.<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n    <div class=\"k\">\n        <div class=\"wc\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/memberlogo.webp?v=1687929441\" alt=\"Logo a member in a group\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Become A Glo-Getter<\/div>\n                <div class=\"d\">Sign up as a member with us and get 10% off your first order. Accumulate points to enjoy even greater savings.<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wd\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/icon_free_consultation_1.webp?v=1687929738\" alt=\"Logo of a pharmacist\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Looking For Affordable Medications?<\/div>\n                <div class=\"d\">Find out more about our E-Pharmacy services at <a href=\"https:\/\/glovda-rx.com.sg\">glovda-rx.com.sg<\/a>, or contact our friendly pharmacist via Whatsapp at <a href=https:\/\/wa.me\/+6581015555>+65 81015555<\/a>.<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n<\/div>\n\n<style>\n.f {\n    display: flex;\n    justify-content: space-around;\n    max-width: 1100px;\n    margin: auto;\n}\n.l, .k {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding: 20px;\n    height: 100%;\n}\n.wa, .wb, .wc, .wd {\n    display: flex;\n    align-items: flex-start;\n    gap: 1rem;\n    padding: 1rem;\n}\n.i img {\n    height: 80px;\n    object-fit: cover;\n}\n.t {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 100%;\n}\n.h {\n    font-weight: 600;\n    font-size: 20px;\n    margin: 0.5rem 0;\n}\n.d {\n    margin: 0.5rem 0;\n    font-size: 15px;\n}\n@media (max-width: 768px) {\n    .f {\n        flex-direction: column;\n    }\n    .l, .k {\n        width: 100%;\n        padding: 0;\n    }\n}\n<\/style>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "baba2b51-4c09-4331-8843-27e31236b6b5": {
       "type": "featured-blog",
       "custom_css": [
@@ -536,19 +536,6 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
-    },
-    "07d983ce-d3dd-45f3-82a4-15bd2616d988": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/static.elfsight.com\/platform\/platform.js\" data-use-service-core defer><\/script>\n<div class=\"elfsight-app-1b65295f-0d05-457e-a28a-a7970534b003\"><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -556,18 +543,17 @@
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0",
     "f7589ce5-2df5-4372-87b9-291ccab76bee",
     "featured_collection",
+    "74288d6b-aa9c-4463-877a-1446456da026",
     "0af3f324-40f5-43a2-9622-a432f7f99e76",
     "a5a3a75e-ac06-4ed5-bad1-8a212d77eaa7",
     "87f8f474-ace5-45dd-9bfe-eb86d6c2087b",
     "078a4620-da96-4488-a167-91ffeb8708ab",
     "d3bded95-2a42-4b90-bc13-6e452c4f9102",
     "97b04a02-8fa4-41bf-acac-5c4826fda627",
-    "74288d6b-aa9c-4463-877a-1446456da026",
     "baba2b51-4c09-4331-8843-27e31236b6b5",
     "04ecc04d-40f1-4388-93a0-c65e98a8865a",
     "1680081647a1f64d34",
     "73600f1f-c8e6-49ab-8dbc-8e98f34d5c45",
-    "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
-    "07d983ce-d3dd-45f3-82a4-15bd2616d988"
+    "6bdebe95-539d-487d-adae-ab9f9d7eba9a"
   ]
 }
