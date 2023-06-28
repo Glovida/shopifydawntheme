@@ -577,37 +577,6 @@
       ]
     }
   </script>
-                          <script>
-                            $(document).ready(function() {
-    var maxQuantity = 5;  // The maximum quantity of a particular product
-    var productId = 8389225972006;  // The ID of the product you want to limit
-
-    function checkCart() {
-        $.getJSON('/cart.js', function(cart) {
-            var totalQuantity = 0;
-            $(cart.items).each(function(i, item) {
-                if (item.product_id === productId) {
-                    totalQuantity += item.quantity;
-                }
-            });
-
-            if (totalQuantity >= maxQuantity) {
-                alert('You cannot add more of this product.');
-                $('#AddToCart').prop('disabled', true);  // Disables the "Add to Cart" button
-            } else {
-                $('#AddToCart').prop('disabled', false);  // Enables the "Add to Cart" button
-            }
-        });
-    }
-
-    checkCart();  // Check the cart when the page loads
-
-    // Check the cart whenever an item is added or removed
-    $(document).on('click', '#AddToCart', function() {
-        checkCart();
-    });
-});
-                          </script>
 </section>
 
 {% schema %}
