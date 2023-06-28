@@ -263,6 +263,19 @@
       <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
     </ul>
 
+    <a href="https://wa.me/+6594843356" class="whatsapp-button" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:50px;height:50px;">
+    </a>
+
+    <style>
+    .whatsapp-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    </style>
+
     <script>
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
@@ -299,6 +312,17 @@
 
     <script>
       AOS.init();
+    </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var whatsappButton = document.querySelector('.whatsapp-button');
+        whatsappButton.addEventListener('click', function (e) {
+            // ensure the WhatsApp window opens in a new tab
+            e.preventDefault();
+            window.open(this.href, '_blank');
+        });
+    });
     </script>
     
   {% render 'appikon-discounts' %}
