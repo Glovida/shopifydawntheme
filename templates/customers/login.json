@@ -1,1 +1,37 @@
-{"sections":{"main":{"type":"main-login","settings":{"padding_top":36,"padding_bottom":36}}},"order":["main"]}
+{
+  "sections": {
+    "87308c76-99b1-422e-abf0-fa3bad24f290": {
+      "type": "rich-text",
+      "blocks": {
+        "998fd5fa-93a2-4fcc-b4e9-520775459322": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please log in to complete your purchase.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "998fd5fa-93a2-4fcc-b4e9-520775459322"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-login",
+      "settings": {
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "87308c76-99b1-422e-abf0-fa3bad24f290",
+    "main"
+  ]
+}
