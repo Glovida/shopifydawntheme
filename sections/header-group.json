@@ -2,6 +2,18 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "56cbbe0d-1399-4c50-8216-58d31493c4cc": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "* {margin: 0; padding: 2px; text-align: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% assign difference = 7900 | minus: cart.items_subtotal_price %}\n{% if cart.items_subtotal_price == 0 %}\n    <h4 id=\"shippingMsg\">Free shipping for orders over $79 (Local orders only)<\/h4>\n{% elsif cart.items_subtotal_price < 7900 %}\n    <h4 id=\"shippingMsg\">Only {{ difference | money }} away from free shipping (Local orders only)<\/h4>\n{% else %}\n    <h4 id=\"shippingMsg\">Congratulations! You've got free shipping (Local orders only)<\/h4>\n{% endif %}\n\n<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.5.1\/jquery.min.js\"><\/script>\n<script>\nfunction updateShippingMsg() {\n    $.getJSON('\/cart.js', function(cart) {\n        var difference = 7900 - cart.items_subtotal_price;\n        var new_msg = '';\n        if (cart.items_subtotal_price == 0) {\n            new_msg = 'Free shipping for orders over $79 (Local orders only)';\n        } else if (cart.items_subtotal_price < 7900) {\n            new_msg = 'Only $' + (difference \/ 100).toFixed(2) + ' away from free shipping (Local orders only)';\n        } else {\n            new_msg = 'Congratulations! You\\'ve got free shipping (Local orders only)';\n        }\n        $('#shippingMsg').text(new_msg);\n    });\n}\n\n$(document).ready(function() {\n    \/\/ Update message when page loads\n    updateShippingMsg();\n    \n    \/\/ Update message when item added to cart\n    $('body').on('click', '.product-form__submit', function() {\n        setTimeout(updateShippingMsg, 500);\n    });\n    \n    \/\/ Update message when item removed from cart\n    $('body').on('click', 'cart-remove-button', function() {\n        setTimeout(updateShippingMsg, 500);\n    });\n});\n<\/script>",
+        "color_scheme": "accent-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "disabled": true,
@@ -28,6 +40,7 @@
     }
   },
   "order": [
+    "56cbbe0d-1399-4c50-8216-58d31493c4cc",
     "announcement-bar",
     "header"
   ]
