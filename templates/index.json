@@ -151,7 +151,7 @@
         "df3d8be5-b2bb-4861-bf5a-20e45bae3c11"
       ],
       "custom_css": [
-        "div {display: none;}",
+        "div {border: 0; display: none;}",
         "@media screen and (max-width: 768px) {div {display: block; }}"
       ],
       "settings": {
