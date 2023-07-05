@@ -16,7 +16,7 @@
         "8424de41-2c05-4ea9-a213-677f9ad9dd81": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9.png",
+            "image": "shopify:\/\/shop_images\/92.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -34,7 +34,7 @@
         "4f6566ca-6591-4617-9d7d-c5afe8300398": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8.png",
+            "image": "shopify:\/\/shop_images\/8.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -52,7 +52,7 @@
         "1d81c32e-18a6-434b-95de-5b19571cb7aa": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6.png",
+            "image": "shopify:\/\/shop_images\/6.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -74,7 +74,8 @@
         "1d81c32e-18a6-434b-95de-5b19571cb7aa"
       ],
       "custom_css": [
-        "div {border: 0;}"
+        "div {border: 0;}",
+        "@media screen and (max-width: 768px) {div {display: none; }}"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -84,6 +85,83 @@
         "change_slides_speed": 3,
         "show_text_below": false,
         "accessibility_info": "Slideshow about Glovida's health and beauty categories"
+      }
+    },
+    "e4568620-3ad8-4e42-88a0-074461f602b3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--19576119034150__e4568620-3ad8-4e42-88a0-074461f602b3-1688542893b52b183c-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.webp",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--19576119034150__e4568620-3ad8-4e42-88a0-074461f602b3-1688542893b52b183c-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.webp",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "df3d8be5-b2bb-4861-bf5a-20e45bae3c11": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2.webp",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--19576119034150__e4568620-3ad8-4e42-88a0-074461f602b3-1688542893b52b183c-0",
+        "template--19576119034150__e4568620-3ad8-4e42-88a0-074461f602b3-1688542893b52b183c-1",
+        "df3d8be5-b2bb-4861-bf5a-20e45bae3c11"
+      ],
+      "custom_css": [
+        "div {border: 0; display: none;}",
+        "@media screen and (max-width: 768px) {div {display: block; }}"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "f7589ce5-2df5-4372-87b9-291ccab76bee": {
@@ -541,6 +619,7 @@
   "order": [
     "3a6fb512-c445-4edf-a8cd-e61c84165338",
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0",
+    "e4568620-3ad8-4e42-88a0-074461f602b3",
     "f7589ce5-2df5-4372-87b9-291ccab76bee",
     "featured_collection",
     "74288d6b-aa9c-4463-877a-1446456da026",
