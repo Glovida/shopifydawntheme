@@ -152,7 +152,7 @@
       ],
       "custom_css": [
         "div {border: 0; display: none;}",
-        "@media screen and (max-width: 768px) {div {display: auto; }}"
+        "@media screen and (max-width: 768px) {div {display: unset; }}"
       ],
       "settings": {
         "layout": "full_bleed",
