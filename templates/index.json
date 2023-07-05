@@ -1,15 +1,5 @@
 {
   "sections": {
-    "3a6fb512-c445-4edf-a8cd-e61c84165338": {
-      "type": "banner-image",
-      "disabled": true,
-      "settings": {
-        "desktop_image": "shopify:\/\/shop_images\/banner-purveyor-20210511-1200-x-450.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/94fbf67439ad752fb081980170678047.jpg",
-        "desktop_link": "shopify:\/\/collections\/all",
-        "mobile_link": "shopify:\/\/collections\/thankyou"
-      }
-    },
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0": {
       "type": "slideshow",
       "blocks": {
@@ -419,7 +409,6 @@
     }
   },
   "order": [
-    "3a6fb512-c445-4edf-a8cd-e61c84165338",
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0",
     "e4568620-3ad8-4e42-88a0-074461f602b3",
     "featured_collection",
