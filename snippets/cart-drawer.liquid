@@ -286,11 +286,11 @@
                                 {% # theme-check-disable %}
                                 data-cart-quantity="{{ cart | item_count_for_variant: item.variant.id }}"
                                 min="{{ item.variant.quantity_rule.min }}"
-  {% comment %}
+                              {% comment %}
                                 {% if item.variant.quantity_rule.max != null %}
                                   max="{{ item.variant.quantity_rule.max }}"
                                 {% endif %}
-                      {% endcomment %}
+                              {% endcomment %}
                       {%- if item.variant.metafields.inventory.max_quantity -%}
                       data-max="{{ item.variant.metafields.inventory.max_quantity }}"
                       max="{{ item.variant.metafields.inventory.max_quantity }}"
@@ -303,6 +303,7 @@
                                 aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
                                 id="Drawer-quantity-{{ item.index | plus: 1 }}"
                                 data-index="{{ item.index | plus: 1 }}"
+                                readonly
                               >
                               <button class="quantity__button no-js-hidden" name="plus" type="button">
                                 <span class="visually-hidden">
