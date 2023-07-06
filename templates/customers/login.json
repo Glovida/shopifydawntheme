@@ -25,13 +25,36 @@
     "main": {
       "type": "main-login",
       "settings": {
-        "padding_top": 16,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "17d16dca-625b-4c3e-83ec-251f2170543d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19576119165222__17d16dca-625b-4c3e-83ec-251f2170543d-16886136861d3cc07f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you registered as a member before our site renewal (27th June 2023), please reset your password. For more information, please check this <a href=\"\/pages\/account-reactivation-faq\" target=\"_blank\" title=\"Account Reactivation FAQ\">FAQ<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19576119165222__17d16dca-625b-4c3e-83ec-251f2170543d-16886136861d3cc07f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "87308c76-99b1-422e-abf0-fa3bad24f290",
-    "main"
+    "main",
+    "17d16dca-625b-4c3e-83ec-251f2170543d"
   ]
 }
