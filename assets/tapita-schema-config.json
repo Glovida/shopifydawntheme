@@ -56,8 +56,8 @@
     "fullField": false
   },
   "siteLink": {
-    "turnOn": false,
-    "fullField": false
+    "turnOn": true,
+    "fullField": true
   },
   "product": {
     "turnOn": true,
