@@ -1,38 +1,44 @@
 {
   "localBusiness": {
-    "turnOn": false,
-    "fullField": false,
-    "businessName": "",
-    "streetAddress": "",
-    "stateRegion": "",
-    "country": "",
-    "city": "",
-    "type": "",
-    "postalCode": "",
+    "turnOn": true,
+    "fullField": true,
+    "businessName": "Glovida",
+    "streetAddress": "21 Henderson Rd, #04-18 Henderson Building",
+    "stateRegion": "Singapore",
+    "country": "Singapore",
+    "city": "Singapore",
+    "type": "Pharmacy",
+    "postalCode": "159557",
     "imageUrl": [
-
+      "https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/glovida-banner.jpg"
     ],
     "phone": "",
-    "priceRange": "",
+    "priceRange": "$",
     "acceptReservation": "true",
     "menu": "",
     "cuisineType": "",
     "openingHours": [
       {
         "@type": "OpeningHoursSpecification",
-        "closes": "23:59",
         "dayOfWeek": [
           "Monday",
           "Tuesday",
           "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
+          "Friday"
         ],
-        "opens": "00:00"
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Thursday"
+        ],
+        "opens": "00:00",
+        "closes": "17:00"
       }
-    ]
+    ],
+    "telephone": "+6594843356"
   },
   "logo": {
     "turnOn": true,
