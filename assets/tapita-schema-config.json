@@ -35,8 +35,11 @@
     ]
   },
   "logo": {
-    "turnOn": false,
-    "fullField": false
+    "turnOn": true,
+    "fullField": true,
+    "imageUrl": [
+      "https:\/\/tapita.io\/pb\/pub\/media\/spb\/usr\/8739\/wysiwyg\/77943144742\/glovida-logo.jpg"
+    ]
   },
   "breadcrumb": {
     "turnOn": true,
