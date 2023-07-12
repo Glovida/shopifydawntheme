@@ -1,0 +1,9 @@
+{%- capture tapita-seo-snippets -%}
+{% include 'tapita-page-speed-status' %}
+{%- if tapitaPageSpeedStatus -%}
+{% include 'tapita-page-speed' %}
+{%- endif -%}
+{%- endcapture -%}
+{%- unless tapita-seo-snippets contains 'Liquid error' -%}
+{{ tapita-seo-snippets }}
+{%- endunless -%}
