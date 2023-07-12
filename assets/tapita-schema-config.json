@@ -60,12 +60,12 @@
     "fullField": false
   },
   "product": {
-    "turnOn": false,
-    "fullField": false
+    "turnOn": true,
+    "fullField": true
   },
   "article": {
-    "turnOn": false,
-    "fullField": false
+    "turnOn": true,
+    "fullField": true
   },
   "faq": {
     "turnOn": false,
