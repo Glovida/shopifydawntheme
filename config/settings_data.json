@@ -128,7 +128,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "clinic-exclusives",
-    "checkout_logo_image": "shopify:\/\/shop_images\/glovida-logo2_2x-01.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/glovida-logo.png",
     "checkout_accent_color": "#692e7f",
     "checkout_button_color": "#692e7f",
     "sections": {
