@@ -47,7 +47,7 @@
             "icon_1": "truck",
             "heading_1": "Free Next Day Shipping (Singapore Min. $79\/Overseas Min. $300)",
             "icon_2": "chat_bubble",
-            "heading_2": "Pharmacist Available at +65 81015555",
+            "heading_2": "Pharmacist Available at <a href=\"https:\/\/wa.me\/+6581015555\">+65 81015555<\/a>",
             "icon_3": "leaf",
             "heading_3": "Expiry Date: {{ product.metafields.custom.expiry_date | metafield_text }}"
           }
