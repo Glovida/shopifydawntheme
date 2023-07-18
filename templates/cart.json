@@ -30,6 +30,9 @@
     },
     "09b325ca-bf20-4dce-9df3-ee4cf1c95d5e": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
         "title": "Others also bought",
         "heading_size": "h2",
