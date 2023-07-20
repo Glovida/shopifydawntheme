@@ -49,6 +49,13 @@
             "menu": "footer"
           }
         },
+        "7cf734ee-f4f9-4609-bade-37d58d6cf59e": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer-categories"
+          }
+        },
         "1dbd2a2c-4920-41fc-a099-4447d53a81b5": {
           "type": "brand_information",
           "settings": {
@@ -58,6 +65,7 @@
       },
       "block_order": [
         "afac5979-d9fd-47dc-ab8b-e04817415991",
+        "7cf734ee-f4f9-4609-bade-37d58d6cf59e",
         "1dbd2a2c-4920-41fc-a099-4447d53a81b5"
       ],
       "settings": {
