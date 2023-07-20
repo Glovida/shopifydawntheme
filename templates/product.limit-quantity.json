@@ -132,10 +132,48 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "29dd0402-5a27-4ac3-912f-efa44f65a917": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19576119099686__29dd0402-5a27-4ac3-912f-efa44f65a917-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be the first to know",
+            "heading_size": "h2"
+          }
+        },
+        "template--19576119099686__29dd0402-5a27-4ac3-912f-efa44f65a917-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you join our mailing list!<\/p>"
+          }
+        },
+        "template--19576119099686__29dd0402-5a27-4ac3-912f-efa44f65a917-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--19576119099686__29dd0402-5a27-4ac3-912f-efa44f65a917-heading-1",
+        "template--19576119099686__29dd0402-5a27-4ac3-912f-efa44f65a917-paragraph-1",
+        "template--19576119099686__29dd0402-5a27-4ac3-912f-efa44f65a917-email_form-1"
+      ],
+      "custom_css": [
+        "h2 {font-weight: bold;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "29dd0402-5a27-4ac3-912f-efa44f65a917"
   ]
 }
