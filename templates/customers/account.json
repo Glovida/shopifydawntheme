@@ -1,5 +1,12 @@
 {
   "sections": {
+    "main": {
+      "type": "main-account",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "16860774841499f31c": {
       "type": "apps",
       "blocks": {
@@ -17,17 +24,10 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "main": {
-      "type": "main-account",
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "16860774841499f31c",
-    "main"
+    "main",
+    "16860774841499f31c"
   ]
 }
