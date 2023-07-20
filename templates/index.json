@@ -436,6 +436,40 @@
         "padding_top": 36,
         "padding_bottom": 0
       }
+    },
+    "96da0751-83f7-416b-ae75-d3cb0a7b78c1": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be The First To Know",
+            "heading_size": "h2"
+          }
+        },
+        "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you join our mailing list!<\/p>"
+          }
+        },
+        "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-heading-1",
+        "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-paragraph-1",
+        "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -450,6 +484,7 @@
     "baba2b51-4c09-4331-8843-27e31236b6b5",
     "04ecc04d-40f1-4388-93a0-c65e98a8865a",
     "1680081647a1f64d34",
-    "6bdebe95-539d-487d-adae-ab9f9d7eba9a"
+    "6bdebe95-539d-487d-adae-ab9f9d7eba9a",
+    "96da0751-83f7-416b-ae75-d3cb0a7b78c1"
   ]
 }
