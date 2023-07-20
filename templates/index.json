@@ -464,6 +464,9 @@
         "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-paragraph-1",
         "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-email_form-1"
       ],
+      "custom_css": [
+        ".h2 {font-weight: bold;}"
+      ],
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
