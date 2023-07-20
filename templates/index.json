@@ -285,9 +285,12 @@
     },
     "0acccb5c-df50-46fb-9896-5f3af6333b96": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
         "title": "New Arrivals",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
