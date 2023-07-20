@@ -60,18 +60,6 @@
     },
     "16860774841499f31c": {
       "type": "apps",
-      "blocks": {
-        "ebd52efe-8197-41ea-951c-e50f9c6af39a": {
-          "type": "shopify:\/\/apps\/mcglovida\/blocks\/star_rating\/f58774bd-9e4f-4559-93de-b0072f06babe",
-          "settings": {
-            "product": "",
-            "colour": "#ff0000"
-          }
-        }
-      },
-      "block_order": [
-        "ebd52efe-8197-41ea-951c-e50f9c6af39a"
-      ],
       "settings": {
         "include_margins": true
       }
