@@ -17,12 +17,14 @@
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
-            "icon_1": "truck",
+            "icon_1": "none",
+            "image_1": "shopify:\/\/shop_images\/icon_convenience.png",
             "heading_1": "Free Same Day Shipping For Payments Made Before 3pm",
-            "icon_2": "heart",
-            "image_2": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline_7ecdc6ab-565d-468c-8d68-dfe57b84f8f0.jpg",
+            "icon_2": "none",
+            "image_2": "shopify:\/\/shop_images\/icon_authenticity.png",
             "heading_2": "This Is A Pharmacy Only (P) Medicine. You Are Required To Consult A Pharmacist Before Purchase",
-            "icon_3": "chat_bubble",
+            "icon_3": "none",
+            "image_3": "shopify:\/\/shop_images\/icon_professional_advice.png",
             "heading_3": "Connect With Our Pharmacist Via WhatsApp At <a href=\"https:\/\/wa.me\/+6594843356\">+65 8101 5555<\/a>"
           }
         },
