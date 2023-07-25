@@ -8,14 +8,14 @@
         "afac5979-d9fd-47dc-ab8b-e04817415991": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "About",
             "menu": "footer"
           }
         },
         "7cf734ee-f4f9-4609-bade-37d58d6cf59e": {
           "type": "link_list",
           "settings": {
-            "heading": "",
+            "heading": "Shop",
             "menu": "footer-categories"
           }
         },
