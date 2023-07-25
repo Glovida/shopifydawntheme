@@ -45,7 +45,7 @@
         "4fa58181-ecfa-4c85-a75f-d038dc185d9e"
       ],
       "custom_css": [
-        ".price__badge-sold-out .caption {display: none;}"
+        ".price__badge-sold-out, .caption {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
