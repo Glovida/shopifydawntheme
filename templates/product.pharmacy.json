@@ -65,12 +65,6 @@
             "enable_quick_add": true
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -92,7 +86,6 @@
         "635b4a81-43a5-4f79-8feb-2cebf2b38037",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
         "d394443a-da38-4a25-861b-03e1fc759294",
-        "buy_buttons",
         "description",
         "share"
       ],
