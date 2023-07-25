@@ -8,21 +8,16 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "39c60039-f8c9-4213-ba33-d842547e74b7": {
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
             "icon_1": "truck",
-            "heading_1": "Free Next Day Shipping (Singapore Min. $79\/Overseas Min. $300)",
+            "heading_1": "Free Same Day Shipping",
             "icon_2": "chat_bubble",
             "heading_2": "Pharmacist Available at +65 81015555",
-            "icon_3": "leaf",
-            "heading_3": "Expiry Date: {{ product.metafields.custom.expiry_date | metafield_text }}"
+            "icon_3": "none",
+            "heading_3": ""
           }
         },
         "description": {
@@ -33,7 +28,6 @@
       },
       "block_order": [
         "title",
-        "price",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
         "description"
       ],
