@@ -25,15 +25,15 @@
             "heading_3": "Connect With Our Pharmacist Via WhatsApp At <a href=\"https:\/\/wa.me\/+6594843356\">+65 8101 5555<\/a>"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "4fa58181-ecfa-4c85-a75f-d038dc185d9e": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "<a style=\"text-decoration:none\" href=\"https:\/\/wa.me\/+6594843356\">\n<div class=\"product-form__buttons\"><button id=\"ProductSubmitButton-template--19576119099686__main\" type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--primary\">\n<span>Consult Us<\/span>\n<\/button>\n<\/div>\n<\/a>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         }
       },
@@ -41,11 +41,11 @@
         "title",
         "a5dd5349-0b61-4d4b-bc6e-3a94e99dd2a0",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
-        "description",
-        "4fa58181-ecfa-4c85-a75f-d038dc185d9e"
+        "4fa58181-ecfa-4c85-a75f-d038dc185d9e",
+        "description"
       ],
       "custom_css": [
-        ".price__badge-sold-out, .caption {display: none;}"
+        ".price__badge-sold-out,.caption {display: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
