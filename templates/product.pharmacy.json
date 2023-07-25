@@ -79,6 +79,7 @@
     },
     "359441ae-5c09-4065-a0a3-92a15b8c9a06": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "template--19576119591206__359441ae-5c09-4065-a0a3-92a15b8c9a06-heading-1": {
           "type": "heading",
