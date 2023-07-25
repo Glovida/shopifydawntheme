@@ -28,7 +28,7 @@
         "4fa58181-ecfa-4c85-a75f-d038dc185d9e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a href=\"https:\/\/wa.me\/+6594843356\">\n<div class=\"product-form__buttons\"><button id=\"ProductSubmitButton-template--19576119099686__main\" type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--primary\">\n            <span>Consult Us\n<\/span>\n            <div class=\"loading-overlay__spinner hidden\">\n              <svg aria-hidden=\"true\" focusable=\"false\" class=\"spinner\" viewBox=\"0 0 66 66\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                <circle class=\"path\" fill=\"none\" stroke-width=\"6\" cx=\"33\" cy=\"33\" r=\"30\"><\/circle>\n              <\/svg>\n            <\/div>\n          <\/button><\/div>"
+            "custom_liquid": "<a href=\"https:\/\/wa.me\/+6594843356\">\n<div class=\"product-form__buttons\"><button id=\"ProductSubmitButton-template--19576119099686__main\" type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--primary\">\n            <span>Consult Us\n<\/span>\n            \n          <\/button><\/div>\n<a>"
           }
         }
       },
