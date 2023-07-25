@@ -20,33 +20,14 @@
             "icon_1": "truck",
             "heading_1": "Free Next Day Shipping (Singapore Min. $79\/Overseas Min. $300)",
             "icon_2": "chat_bubble",
-            "heading_2": "Pharmacist Available at <a href=\"https:\/\/wa.me\/+6581015555\">+65 81015555<\/a>",
+            "heading_2": "Pharmacist Available at +65 81015555",
             "icon_3": "leaf",
             "heading_3": "Expiry Date: {{ product.metafields.custom.expiry_date | metafield_text }}"
-          }
-        },
-        "d394443a-da38-4a25-861b-03e1fc759294": {
-          "type": "complementary",
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
           }
         },
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -54,9 +35,7 @@
         "title",
         "price",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
-        "d394443a-da38-4a25-861b-03e1fc759294",
-        "description",
-        "share"
+        "description"
       ],
       "custom_css": [
 
@@ -78,6 +57,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "custom_css": [
         "h2 {text-align: center;}"
       ],
