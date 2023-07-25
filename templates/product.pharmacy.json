@@ -22,13 +22,13 @@
             "icon_2": "clipboard",
             "heading_2": "This Is A Pharmacy Only (P) Medicine. You Are Required To Consult A Pharmacist Before Purchase",
             "icon_3": "chat_bubble",
-            "heading_3": "Connect With Our Pharmacist Via WhatsApp At <a href=\"https:\/\/wa.me\/+6581015555\">+65 8101 5555<\/a>"
+            "heading_3": "Connect With Our Pharmacist Via WhatsApp At +65 8101 5555"
           }
         },
         "4fa58181-ecfa-4c85-a75f-d038dc185d9e": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<a style=\"text-decoration:none\" href=\"https:\/\/wa.me\/+6594843356\">\n<div class=\"product-form__buttons\"><button id=\"ProductSubmitButton-template--19576119099686__main\" type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--primary\">\n<span>Consult Us<\/span>\n<\/button>\n<\/div>\n<\/a>"
+            "custom_liquid": "<a style=\"text-decoration:none\" href=\"https:\/\/wa.me\/+6581015555\">\n<div class=\"product-form__buttons\"><button id=\"ProductSubmitButton-template--19576119099686__main\" type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--primary\">\n<span>Consult Us<\/span>\n<\/button>\n<\/div>\n<\/a>"
           }
         },
         "description": {
