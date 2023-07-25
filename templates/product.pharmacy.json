@@ -8,16 +8,21 @@
           "settings": {
           }
         },
+        "cbefe056-c99a-4e2d-8a26-3b727b9175fa": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "39c60039-f8c9-4213-ba33-d842547e74b7": {
           "type": "icon-with-text",
           "settings": {
             "layout": "vertical",
             "icon_1": "truck",
-            "heading_1": "Free Same Day Shipping",
+            "heading_1": "Free Same Day Shipping For Payments Made Before 3pm",
             "icon_2": "chat_bubble",
-            "heading_2": "Pharmacist Available at +65 81015555",
+            "heading_2": "This Is A Pharmacy Only (P) Medicine. You Are Required To Consult A Pharmacist Before Purchase",
             "icon_3": "leaf",
-            "heading_3": "Expiry Date: {{ product.metafields.custom.expiry_date | metafield_text }}"
+            "heading_3": "Connect With Our Pharmacist Via WhatsApp At <a href=\"https:\/\/wa.me\/+6594843356\">+65 8101 5555<\/a>"
           }
         },
         "description": {
@@ -34,6 +39,7 @@
       },
       "block_order": [
         "title",
+        "cbefe056-c99a-4e2d-8a26-3b727b9175fa",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
         "description",
         "4fa58181-ecfa-4c85-a75f-d038dc185d9e"
