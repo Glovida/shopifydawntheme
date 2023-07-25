@@ -24,12 +24,19 @@
           "type": "description",
           "settings": {
           }
+        },
+        "4fa58181-ecfa-4c85-a75f-d038dc185d9e": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"product-form__buttons\"><button id=\"ProductSubmitButton-template--19576119099686__main\" type=\"submit\" name=\"add\" class=\"product-form__submit button button--full-width button--primary\">\n            <span>Add to cart\n<\/span>\n            <div class=\"loading-overlay__spinner hidden\">\n              <svg aria-hidden=\"true\" focusable=\"false\" class=\"spinner\" viewBox=\"0 0 66 66\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n                <circle class=\"path\" fill=\"none\" stroke-width=\"6\" cx=\"33\" cy=\"33\" r=\"30\"><\/circle>\n              <\/svg>\n            <\/div>\n          <\/button><\/div>"
+          }
         }
       },
       "block_order": [
         "title",
         "39c60039-f8c9-4213-ba33-d842547e74b7",
-        "description"
+        "description",
+        "4fa58181-ecfa-4c85-a75f-d038dc185d9e"
       ],
       "custom_css": [
 
