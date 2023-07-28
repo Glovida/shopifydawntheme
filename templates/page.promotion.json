@@ -40,14 +40,14 @@
     "6836ab91-d259-45e1-b4a9-73c540b2ee98": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
+        "title": "Featured collection{{ section.settings.collection.title }}",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "beauty-bestsellers",
+        "products_to_show": 5,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -59,7 +59,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
