@@ -12,6 +12,9 @@
     },
     "9aaf7c5a-95ec-48dd-8d94-a4b6e5d664ce": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "heading_size": "h2",
