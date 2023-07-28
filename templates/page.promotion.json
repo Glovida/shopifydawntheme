@@ -42,6 +42,9 @@
     },
     "6836ab91-d259-45e1-b4a9-73c540b2ee98": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "heading_size": "h2",
@@ -69,6 +72,9 @@
     },
     "20021e31-03bd-4ed0-90b1-b45ce6695fa5": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "heading_size": "h2",
@@ -96,6 +102,9 @@
     },
     "41ebcfe4-7ecb-40d7-93c2-890ee979618c": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
       "settings": {
         "title": "{{ section.settings.collection.title }}",
         "heading_size": "h2",
