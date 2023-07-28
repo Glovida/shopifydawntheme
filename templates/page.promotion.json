@@ -40,7 +40,7 @@
     "6836ab91-d259-45e1-b4a9-73c540b2ee98": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection{{ section.settings.collection.title }}",
+        "title": "{{ section.settings.collection.title }}",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
