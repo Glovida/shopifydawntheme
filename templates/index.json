@@ -91,7 +91,7 @@
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 3,
+        "change_slides_speed": 7,
         "show_text_below": false,
         "accessibility_info": "Slideshow about Glovida's health and beauty categories"
       }
@@ -188,7 +188,7 @@
         "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 3,
+        "change_slides_speed": 7,
         "show_text_below": false,
         "accessibility_info": "Mobile slideshow about Glovida's health and beauty categories"
       }
