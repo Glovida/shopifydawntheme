@@ -13,12 +13,12 @@
     "9aaf7c5a-95ec-48dd-8d94-a4b6e5d664ce": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "health-bestsellers",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
