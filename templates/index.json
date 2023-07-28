@@ -7,11 +7,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Glovida_Birthday_Website_Banner.jpg",
+            "image_link": "shopify:\/\/pages\/birthdaysale",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/pages\/birthdaysale",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -25,6 +26,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/9.webp",
+            "image_link": "",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -43,6 +45,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/8_1.webp",
+            "image_link": "",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -61,6 +64,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/6_1.webp",
+            "image_link": "",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -103,6 +107,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Glovida_Bday_Ad_Creative_V2_003.jpg",
+            "image_link": "shopify:\/\/pages\/birthdaysale",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -121,6 +126,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/3.webp",
+            "image_link": "",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -139,6 +145,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/1.webp",
+            "image_link": "",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -157,6 +164,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/2.webp",
+            "image_link": "",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
