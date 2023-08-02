@@ -405,7 +405,7 @@
             {% unless recoArticle.title == article.title or count >= 3 %}
               {% assign count = count | plus: 1 %}
               <a class="bggle-latest-article" href="{{recoArticle.url}}">
-                
+                {% if recoArticle.image %}<img class="bggle-latest-article-img lazybloggle" data-src="{{ recoArticle.image | img_url }}" alt="{{ recoArticle.image.alt }}">{% endif %}
                 <p>{{recoArticle.title}}</p>
               </a>
             {% endunless %}
@@ -439,7 +439,9 @@
       .bggle--product-item-img{
         object-fit: contain!important;
       }
-      
+      .bggle-latest-article{
+        margin-bottom:20px
+        }
       
   
       #bloggle_article-layout {
