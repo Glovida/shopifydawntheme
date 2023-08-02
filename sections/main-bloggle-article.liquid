@@ -328,8 +328,8 @@
        
       <h1 id="bloggle--article-title" class="">{{article.title }}</h1>
       <div class="info_header">
-        <p id="bloggle--blog-item-author" >{{author}}<span id="author"> {{ article.author }}</span></p>
-        <p id="separator">|</p>
+        
+        
          <p id="bloggle--blog-item-author" >{{ article.published_at | time_tag: format: 'date'}}</p>
         <p id="separator">|</p>
         {% assign wordCount = article.content | strip_html | split: ' ' | size %}
@@ -370,7 +370,7 @@
         {% if productSideBar != "" %}
             <p id="bggle-product-sideBar" class="bggle--sideBar--title {{titleSideBarClass}}">{{productSideBar}}</p>
         {% endif %}
-        <a id="bggle--product-related-link" href="{{product.url}}" bggle-product-title="{{ product.title }}" bggle-product-handle="{{ product.handle }}" >
+        <a id="bggle--product-related-link" href="{{product.url}}" bggle-product-title="{{ product.title }}" bggle-product-handle="{{ product.handle }}" target="_blank">
           <div class="bggle--info-siderBar-product">
             <img class="bggle--product-item-img lazybloggle" data-src="{{product.images[0] | img_url: '420x420' }}" alt="{{ product.images[0].alt }}">
             <div class="bggle--product-info">
@@ -405,7 +405,7 @@
             {% unless recoArticle.title == article.title or count >= 3 %}
               {% assign count = count | plus: 1 %}
               <a class="bggle-latest-article" href="{{recoArticle.url}}">
-                {% if recoArticle.image %}<img class="bggle-latest-article-img lazybloggle" data-src="{{ recoArticle.image | img_url }}" alt="{{ recoArticle.image.alt }}">{% endif %}
+                
                 <p>{{recoArticle.title}}</p>
               </a>
             {% endunless %}
@@ -439,9 +439,7 @@
       .bggle--product-item-img{
         object-fit: contain!important;
       }
-      .bggle-latest-article{
-        margin-bottom:20px
-        }
+      
       
   
       #bloggle_article-layout {
@@ -499,4 +497,51 @@
   }
   window.addEventListener('scroll', handleScroll);
 </script>
-
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "articleBody": {{ article.content | strip_html | json }},
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ shop.url }}{{ page.url }}"
+  },
+  "headline": {{ article.title | json }},
+  {% if article.excerpt != blank %}
+    "description": {{ article.excerpt | strip_html | json }},
+  {% endif %}
+  {% if article.image %}
+    {% assign image_size = article.image.width | append: 'x' %}
+    "image": [
+      "https:{{ article | img_url: image_size }}"
+    ],
+  {% endif %}
+  "datePublished": "{{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' }}",
+  "dateCreated": "{{ article.created_at | date: '%Y-%m-%dT%H:%M:%SZ' }}",
+  "author": {
+    "@type": "Person",
+    "name": {{ article.author | json }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    {% if settings.share_image %}
+      {% assign image_size = settings.share_image.width | append: 'x' %}
+      "logo": {
+        "@type": "ImageObject",
+        "height": "{{ settings.share_image.height }}",
+        "url": "https:{{ settings.share_image | img_url: image_size }}",
+        "width": "{{ settings.share_image.width }}"
+      },
+    {% elsif article.image %}
+      {% assign image_size = article.image.width | append: 'x' %}
+      "logo": {
+        "@type": "ImageObject",
+        "height": "{{ article.image.height }}",
+        "url": "https:{{ article.image | img_url: image_size }}",
+        "width": "{{ article.image.width }}"
+      },
+    {% endif %}
+    "name": "{{ shop.name }}"
+  }
+}
+</script>
