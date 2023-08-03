@@ -2,7 +2,6 @@
   "sections": {
     "748eeb9f-4634-4b97-8f26-e5b77108ab81": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         "* {margin: 0; padding: 2px; text-align: center;}"
       ],

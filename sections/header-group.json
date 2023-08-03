@@ -4,6 +4,7 @@
   "sections": {
     "56cbbe0d-1399-4c50-8216-58d31493c4cc": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         "* {margin: 0; padding: 2px; text-align: center;}"
       ],
@@ -16,7 +17,20 @@
     },
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
+      "blocks": {
+        "ab301032-cd43-4c17-8124-2a88b208694a": {
+          "type": "announcement",
+          "settings": {
+            "text": "Need pharmacy medicines or chronic medication refills? Head over to our e-pharmacy here.",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ab301032-cd43-4c17-8124-2a88b208694a"
+      ],
       "settings": {
       }
     },
