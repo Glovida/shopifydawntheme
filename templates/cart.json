@@ -1,9 +1,22 @@
 {
   "sections": {
+    "748eeb9f-4634-4b97-8f26-e5b77108ab81": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "* {margin: 0; padding: 2px; text-align: center;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% assign difference = 7900 | minus: cart.total_price\n %}\n{% if cart.total_price\n == 0 %}\n    <h4 id=\"shippingMsg\">Free shipping for orders over $79 (Local orders only)<\/h4>\n{% elsif cart.total_price\n < 7900 %}\n    <h4 id=\"shippingMsg\">Only {{ difference | money }} away from free shipping (Local orders only)<\/h4>\n{% else %}\n    <h4 id=\"shippingMsg\">Congratulations! You've got free shipping (Local orders only)<\/h4>\n{% endif %}\n\n<script src=\"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/3.5.1\/jquery.min.js\"><\/script>\n<script>\nfunction updateShippingMsg() {\n    $.getJSON('\/cart.js', function(cart) {\n        var difference = 7900 - cart.total_price\n;\n        var new_msg = '';\n        if (cart.total_price\n == 0) {\n            new_msg = 'Free shipping for orders over $79 (Local orders only)';\n        } else if (cart.total_price\n < 7900) {\n            new_msg = 'Only $' + (difference \/ 100).toFixed(2) + ' away from free shipping (Local orders only)';\n        } else {\n            new_msg = 'Congratulations! You\\'ve got free shipping (Local orders only)';\n        }\n        $('#shippingMsg').text(new_msg);\n    });\n}\n\n$(document).ready(function() {\n    \/\/ Update message when page loads\n    updateShippingMsg();\n    \n    \/\/ Update message when item added to cart\n    $('body').on('click', '.product-form__submit', function() {\n        setTimeout(updateShippingMsg, 500);\n    });\n    \n    \/\/ Update message when item removed from cart\n    $('body').on('click', 'cart-remove-button', function() {\n        setTimeout(updateShippingMsg, 500);\n    });\n\n    \/\/ Update message when additional button 1 is clicked\n    $('body').on('click', '.quantity__button', function() {\n        setTimeout(updateShippingMsg, 500);\n    });\n\n});\n<\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -66,6 +79,7 @@
     }
   },
   "order": [
+    "748eeb9f-4634-4b97-8f26-e5b77108ab81",
     "cart-items",
     "cart-footer",
     "09b325ca-bf20-4dce-9df3-ee4cf1c95d5e",
