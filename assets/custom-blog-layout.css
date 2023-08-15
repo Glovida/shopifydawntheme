@@ -1,0 +1,24 @@
+.custom-article-layout {
+  display: flex;
+}
+
+.article-content {
+  flex: 3;
+  padding-right: 20px;
+}
+
+.recent-posts-sidebar {
+  flex: 1;
+  border-left: 1px solid #eee;
+  padding-left: 20px;
+}
+
+.recent-posts-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.recent-posts-sidebar a {
+  text-decoration: none;
+  color: #333;
+}
