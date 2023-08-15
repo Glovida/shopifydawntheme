@@ -173,3 +173,19 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+.content-with-sidebar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  flex: 0 0 70%; /* Adjust according to your preference */
+  max-width: 70%; /* Adjust according to your preference */
+}
+
+.sidebar {
+  flex: 0 0 25%; /* Adjust according to your preference */
+  max-width: 25%; /* Adjust according to your preference */
+  padding-left: 20px; /* Add spacing between content and sidebar */
+}
