@@ -340,6 +340,20 @@
     </script>
     
   {% render 'appikon-discounts' %}
-{% render 'quantity-breaks-now', customer: customer, template: template, product: product, cart: cart %}    
+{% render 'quantity-breaks-now', customer: customer, template: template, product: product, cart: cart %}
+
+      <div id="customPopup" class="popup">
+    <div class="popup-content">
+        <div id="popupMessage">
+            <!-- Your popup message here. -->
+        </div>
+        <div>
+            <button id="agreeButton" class="button">I Agree</button>
+        </div>
+    </div>
+  </div>
+
+    <script src="{{ 'geopopup.js' | asset_url }}" defer></script>
+    
         </body>
 </html>
