@@ -5,9 +5,8 @@
       "blocks": {
         "08a3b805-6fb4-4cf9-b00a-6599c4690206": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glovida_Birthday_Website_Banner.jpg",
+            "image": "shopify:\/\/shop_images\/Glovida_9.9_Sale_v2_-_3.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -102,9 +101,8 @@
       "blocks": {
         "f7d5624a-aa27-4c28-8d8d-b157b23f8072": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glovida_Bday_Ad_Creative_V2_003.jpg",
+            "image": "shopify:\/\/shop_images\/Glovida_9.9_Sale_v2_-_1_3ea8ac2d-57b1-4e57-b9c9-7f94a3951355.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -417,7 +415,7 @@
           }
         },
         "961958d2-5717-48b2-a083-57a874a4c1c0": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
