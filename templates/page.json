@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "custom_css": [
-        ".main-page-title {display: none;}"
+        "* {max-width: 1000px;}"
       ],
       "settings": {
         "padding_top": 28,
