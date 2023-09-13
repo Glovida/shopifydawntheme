@@ -5,6 +5,7 @@
       "blocks": {
         "08a3b805-6fb4-4cf9-b00a-6599c4690206": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Glovida_9.9_Sale_v2_-_3.jpg",
             "heading": "",
@@ -101,6 +102,7 @@
       "blocks": {
         "f7d5624a-aa27-4c28-8d8d-b157b23f8072": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Glovida_9.9_Sale_v2_-_1_3ea8ac2d-57b1-4e57-b9c9-7f94a3951355.jpg",
             "heading": "",
