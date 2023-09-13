@@ -1,9 +1,44 @@
 {
   "sections": {
+    "caad0a36-d8d4-499e-9d1c-461757df1a4f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--19576118968614__caad0a36-d8d4-499e-9d1c-461757df1a4f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ blog.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "template--19576118968614__caad0a36-d8d4-499e-9d1c-461757df1a4f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Tips and tricks to living a healthier life",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--19576118968614__caad0a36-d8d4-499e-9d1c-461757df1a4f-heading-1",
+        "template--19576118968614__caad0a36-d8d4-499e-9d1c-461757df1a4f-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/yoga-prayer-pose.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "main": {
       "type": "main-blog",
       "custom_css": [
-        ".title--primary {text-align: center;}"
+        ".title--primary {display: none;}"
       ],
       "settings": {
         "layout": "grid",
@@ -17,6 +52,7 @@
     }
   },
   "order": [
+    "caad0a36-d8d4-499e-9d1c-461757df1a4f",
     "main"
   ]
 }
