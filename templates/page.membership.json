@@ -216,7 +216,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/glogetterimage-2.jpg",
             "title": "1. Join Our Mailing List",
-            "text": "<p>Get a special 10% off your first order with no min. spend. Click <a href=\"\/#shopify-section-template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd\" title=\"\/#shopify-section-template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd\">here<\/a> to join and receive the promo code in your email.<\/p>",
+            "text": "<p>Get a special 10% off your first order with no min. spend. Click <a href=\"\/pages\/glovida-membership\/#shopify-section-template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd\" title=\"\/pages\/glovida-membership\/#shopify-section-template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd\">here<\/a> to join and receive the promo code in your email.<\/p>",
             "link_label": "",
             "link": ""
           }
