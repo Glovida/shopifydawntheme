@@ -51,7 +51,7 @@
         "template--21003078205734__cc069ee3-fbe2-48a1-a6e6-a5900a4b60bb-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Join our rewards program. Earn points and get access to special rewards and inside treats.<\/p>"
+            "text": "<p>Join our rewards program. Earn points every time you shop, review a product, or refer a friend. Plus, you get 2x points on your birthday month!<\/p>"
           }
         }
       },
@@ -63,6 +63,307 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5b801d59-514d-4235-95e6-2d78f1422bdd": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"f\">\n    <div class=\"l\">\n        <div class=\"wa\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/shop-2x.png?v=1695024319\" alt=\"Logo of a buy button\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Shop<\/div>\n                <div class=\"d\">Earn points every time you shop. $1 = 1 point. Easy peasy.<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wb\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/refer-friend-2x.png?v=1695024319\" alt=\"Logo of 2 friends\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Refer A Friend<\/div>\n                <div class=\"d\">Each successful referral earns you 1,000 points! Click on your unique referral code and start sharing!<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n    <div class=\"k\">\n        <div class=\"wc\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/product-review-2x.png?v=1695024319\" alt=\"Logo of a positiive product review\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Product Review<\/div>\n                <div class=\"d\">Each product review earns you 100 points. (that's a lot of points!)<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wd\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/birthday-2x.png?v=1695024318\" alt=\"Logo of a birthday cake\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Birthday<\/div>\n                <div class=\"d\">Get 2x points when you shop during your birthday month! It ain't no celebration without a special treat on your special day.<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n<\/div>\n\n<style>\n.f {\n    display: flex;\n    justify-content: space-around;\n    max-width: 1100px;\n    margin: auto;\n}\n.l, .k {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding: 20px;\n    height: 100%;\n}\n.wa, .wb, .wc, .wd {\n    display: flex;\n    align-items: flex-start;\n    gap: 1rem;\n    padding: 1rem;\n}\n.i img {\n    height: 80px;\n    object-fit: cover;\n}\n.t {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 100%;\n}\n.h {\n    font-weight: 600;\n    font-size: 20px;\n    margin: 0.5rem 0;\n}\n.d {\n    margin: 0.5rem 0;\n    font-size: 15px;\n}\n@media (max-width: 768px) {\n    .f {\n        flex-direction: column;\n    }\n    .l, .k {\n        width: 100%;\n        padding: 0;\n    }\n}\n<\/style>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fd89a362-fcc0-4efe-97c4-533d8392f8df": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21003078205734__fd89a362-fcc0-4efe-97c4-533d8392f8df-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Points For Redemption<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--21003078205734__fd89a362-fcc0-4efe-97c4-533d8392f8df-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Redeem points for vouchers and enjoy even greater savings<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21003078205734__fd89a362-fcc0-4efe-97c4-533d8392f8df-heading-1",
+        "template--21003078205734__fd89a362-fcc0-4efe-97c4-533d8392f8df-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "716903ea-d78b-464e-a2ff-3ca65097c0ad": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21003078205734__716903ea-d78b-464e-a2ff-3ca65097c0ad-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_09Sep_CouponVisual_0918_v3_5.png",
+            "title": "500 Points",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21003078205734__716903ea-d78b-464e-a2ff-3ca65097c0ad-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_09Sep_CouponVisual_0918_v3_10.png",
+            "title": "1,000 Points",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21003078205734__716903ea-d78b-464e-a2ff-3ca65097c0ad-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_09Sep_CouponVisual_0918_v3_25.png",
+            "title": "2,000 Points",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "45c26510-2ab8-46de-a49f-c1d6cf393244": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2020_09Sep_CouponVisual_0918_v3_50.png",
+            "title": "4,000 Points",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21003078205734__716903ea-d78b-464e-a2ff-3ca65097c0ad-column-1",
+        "template--21003078205734__716903ea-d78b-464e-a2ff-3ca65097c0ad-column-2",
+        "template--21003078205734__716903ea-d78b-464e-a2ff-3ca65097c0ad-column-3",
+        "45c26510-2ab8-46de-a49f-c1d6cf393244"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "375a14c9-a7a9-4193-9313-ca4d3b41d59a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21003078205734__375a14c9-a7a9-4193-9313-ca4d3b41d59a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Shop Smart. Be A Glo-Getter.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--21003078205734__375a14c9-a7a9-4193-9313-ca4d3b41d59a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here's how you can earn some points:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21003078205734__375a14c9-a7a9-4193-9313-ca4d3b41d59a-heading-1",
+        "template--21003078205734__375a14c9-a7a9-4193-9313-ca4d3b41d59a-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "120b05fe-18ef-4219-b2e8-99a723188b65": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21003078205734__120b05fe-18ef-4219-b2e8-99a723188b65-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glogetterimage-2.jpg",
+            "title": "1. Join Our Mailing List",
+            "text": "<p>Get a special 10% off your first order with no min. spend. Click <a href=\"\/#shopify-section-template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd\" title=\"\/#shopify-section-template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd\">here<\/a> to join and receive the promo code in your email.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21003078205734__120b05fe-18ef-4219-b2e8-99a723188b65-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glogetterimage-1.jpg",
+            "title": "2. Sign Up For Free As A Glo-getter",
+            "text": "<p>And receive 100 points straight to your account<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--21003078205734__120b05fe-18ef-4219-b2e8-99a723188b65-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/glogetterimage-3.jpg",
+            "title": "3. Refer-A-Friend",
+            "text": "<p>Enjoy your experience with us? So would your friends, family, neighbours, or social media followers! ;)<br\/><br\/>Click here for your personal referral code. They will get a special $10 off their first order using your code and you get 1,000 points credited to your account. How's that for a win-win situation.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "79eae4a7-7152-4aa8-88fb-768534d2140a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/review-product.jpg",
+            "title": "4. Leave A Review",
+            "text": "<p>Love what your purchased? Impressed with our service? Happy with the delivery? Let us know and let other shoppers know as well. You'll get 100 points for each approved review. (it's that simple! :))<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21003078205734__120b05fe-18ef-4219-b2e8-99a723188b65-column-1",
+        "template--21003078205734__120b05fe-18ef-4219-b2e8-99a723188b65-column-2",
+        "template--21003078205734__120b05fe-18ef-4219-b2e8-99a723188b65-column-3",
+        "79eae4a7-7152-4aa8-88fb-768534d2140a"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "7e91f213-f8f3-4d98-a432-f4636188cb0a": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I join the Glo-getter program?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I be a Glo-getter?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there any expiry to the points I earn?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What can I redeem with my points?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-1",
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-2",
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-3",
+        "template--21003078205734__7e91f213-f8f3-4d98-a432-f4636188cb0a-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1dbd9a4c-3651-46de-b365-292be86848bd": {
+      "type": "newsletter",
+      "blocks": {
+        "template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be The First To Know",
+            "heading_size": "h2"
+          }
+        },
+        "template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off your first order when you join our mailing list!<\/p>"
+          }
+        },
+        "template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd-heading-1",
+        "template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd-paragraph-1",
+        "template--21003078205734__1dbd9a4c-3651-46de-b365-292be86848bd-email_form-1"
+      ],
+      "settings": {
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
@@ -73,6 +374,13 @@
   "order": [
     "main",
     "49a65f02-cc60-43fc-99ac-8fec8b7e0dd0",
-    "cc069ee3-fbe2-48a1-a6e6-a5900a4b60bb"
+    "cc069ee3-fbe2-48a1-a6e6-a5900a4b60bb",
+    "5b801d59-514d-4235-95e6-2d78f1422bdd",
+    "fd89a362-fcc0-4efe-97c4-533d8392f8df",
+    "716903ea-d78b-464e-a2ff-3ca65097c0ad",
+    "375a14c9-a7a9-4193-9313-ca4d3b41d59a",
+    "120b05fe-18ef-4219-b2e8-99a723188b65",
+    "7e91f213-f8f3-4d98-a432-f4636188cb0a",
+    "1dbd9a4c-3651-46de-b365-292be86848bd"
   ]
 }
