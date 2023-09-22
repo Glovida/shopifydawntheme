@@ -37,7 +37,8 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "nav {text-align: center;}"
+        "nav {text-align: center;}",
+        ".glovidarxlogo {text-align: left;}"
       ],
       "settings": {
         "color_scheme": "background-1",
