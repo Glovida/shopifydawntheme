@@ -461,6 +461,23 @@
       "cart": {
         "gift_card_with_components_not_supported": "捆绑产品“%{name}”无法添加到购物车。"
       }
+    },
+    "checkout": {
+      "shipping": {
+        "split_cart_merchandise_quantity_label_standard": "%{数量} 件商品",
+        "split_cart_merchandise_quantity_label_additional": "+%{数量} 更多"
+      },
+      "redeemable_errors": {
+        "gift_card": {
+          "duplicate": "礼品卡已应用于您的订单",
+          "insufficient_funds": "该礼品卡没有剩余资金",
+          "expired": "该礼品卡已过期",
+          "not_available": "该礼品卡不再可用",
+          "invalid": "输入有效的礼品卡",
+          "currency_mismatch": "仅接受 %{shop_currency} 的礼品卡",
+          "generic": "礼品卡无法添加到结账中"
+        }
+      }
     }
   }
 }
