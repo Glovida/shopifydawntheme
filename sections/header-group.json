@@ -38,7 +38,8 @@
       "type": "header",
       "custom_css": [
         "nav {text-align: center;}",
-        ".glovidarxlogo, .list-menu__item {text-align: left;}"
+        ".list-menu {flex-wrap: wrap; justify-content: center;}",
+        ".glovidarxlogo,.list-menu__item {text-align: left;}"
       ],
       "settings": {
         "color_scheme": "background-1",
