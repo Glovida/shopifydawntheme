@@ -409,14 +409,6 @@
     "1680081647a1f64d34": {
       "type": "apps",
       "blocks": {
-        "5ef5b0e1-d29f-420d-aa7f-f4e5111e508c": {
-          "type": "shopify:\/\/apps\/reputon-for-google-reviews\/blocks\/list-widget-block\/8b378e9e-c56d-47ce-a754-feca5e0caf59",
-          "settings": {
-            "themeId": "light",
-            "showReviewPhotos": true,
-            "writeReview": true
-          }
-        },
         "961958d2-5717-48b2-a083-57a874a4c1c0": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
@@ -427,7 +419,6 @@
         }
       },
       "block_order": [
-        "5ef5b0e1-d29f-420d-aa7f-f4e5111e508c",
         "961958d2-5717-48b2-a083-57a874a4c1c0"
       ],
       "settings": {
