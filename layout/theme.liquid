@@ -332,7 +332,6 @@
     document.addEventListener('DOMContentLoaded', function () {
         var whatsappButton = document.querySelector('.whatsapp-button');
         whatsappButton.addEventListener('click', function (e) {
-            // ensure the WhatsApp window opens in a new tab
             e.preventDefault();
             window.open(this.href, '_blank');
         });
