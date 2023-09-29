@@ -14,9 +14,9 @@
     "gradient_background_1": "",
     "colors_background_2": "#e4faf7",
     "gradient_background_2": "",
-    "type_header_font": "century_gothic_n4",
+    "type_header_font": "poppins_n4",
     "heading_scale": 120,
-    "type_body_font": "century_gothic_n4",
+    "type_body_font": "poppins_n4",
     "body_scale": 100,
     "page_width": 1600,
     "spacing_sections": 0,
@@ -310,9 +310,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".h4,.quantity__label,.announcement-bar__message,.list-menu__item,.quick-add__submit,.button,.shopify-payment-button__button,.focus-inset {text-transform: uppercase; font-size: 13px;}",
       "a {color: black;}",
-      ".collection-hero__title {text-transform: uppercase;}",
       ".card__information {display: flex; flex-direction: column; justify-content: space-between;}",
       ".card__heading {flex-grow: 1;}",
       ".price {display: flex; flex-direction: column;}"
