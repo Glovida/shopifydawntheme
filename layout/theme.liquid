@@ -1,11 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
- <!-- Added by TAPITA SEO SCHEMA-->
-{% if content_for_header contains 'tapita-seo-script-tags' %}
-  {% include 'tapita-seo-schema' %}
-{% endif %}
-<!-- /Added by TAPITA SEO SCHEMA --> 
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -254,20 +249,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
 
   <body class="gradient">
- 
-{% if content_for_header contains 'tapita-seo-script-tags' %}
-{%- capture tapita-seo-snippets -%}
-{% include 'tapita-page-speed-status' %}
-{%- if tapitaPageSpeedStatus -%}
-{% include 'tapita-splash-img' %}
-{%- endif -%}
-{%- endcapture -%}
-{%- unless tapita-seo-snippets contains 'Liquid error' -%}
-{{ tapita-seo-snippets }}
-{%- endunless -%}
-{% endif %}
- 
-
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
