@@ -195,6 +195,18 @@
         "accessibility_info": "Mobile slideshow about Glovida's health and beauty categories"
       }
     },
+    "bf11f7b6-6ff8-4c8a-8250-56c3ee7423d0": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "h1 {text-align: center; margin-bottom: 5px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<h1>Glovida<\/h1>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
@@ -221,7 +233,7 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 28,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -410,7 +422,7 @@
       "type": "apps",
       "blocks": {
         "3002416e-6a8c-47a1-bdef-51734c69fb37": {
-          "type": "shopify:\/\/apps\/google-review-plus\/blocks\/app-block\/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "type": "shopify:\/\/apps\/google-reviews-plus\/blocks\/app-block\/d11c8893-a181-4aff-a280-7446d42cec3b",
           "settings": {
           }
         }
@@ -526,6 +538,7 @@
   "order": [
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0",
     "e4568620-3ad8-4e42-88a0-074461f602b3",
+    "bf11f7b6-6ff8-4c8a-8250-56c3ee7423d0",
     "featured_collection",
     "74288d6b-aa9c-4463-877a-1446456da026",
     "0af3f324-40f5-43a2-9622-a432f7f99e76",
