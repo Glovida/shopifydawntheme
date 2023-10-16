@@ -2620,7 +2620,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 details[open] > .header__submenu {
   animation: animateMenuOpen var(--duration-default) ease;
   animation-fill-mode: forwards;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media (prefers-reduced-motion) {
