@@ -459,6 +459,25 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "contact": {
+        "address2_label": "Unit number, building name, apartment etc.",
+        "optional_address2_label": "Unit number, building name, apartment etc. (optional)"
+      },
+      "shipping": {
+        "address2_add_label": "Add unit number, building name, apartment etc."
+      },
+      "field_errors": {
+        "address_address2_blank": "Enter unit number, building name, apartment etc."
+      },
+      "wallets": {
+        "errors": {
+          "missing": {
+            "address2": "Enter unit number, building name, apartment etc."
+          }
+        }
+      }
     }
   },
   "customer_accounts": {
