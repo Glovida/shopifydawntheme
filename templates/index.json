@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0": {
@@ -261,7 +270,7 @@
         "template--18198354034971__0af3f324-40f5-43a2-9622-a432f7f99e76-16793688583f9649a0-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "eczema-care"
+            "collection": "eczema-sensitive-skin"
           }
         },
         "template--18198354034971__0af3f324-40f5-43a2-9622-a432f7f99e76-16793688583f9649a0-2": {
@@ -440,8 +449,6 @@
         "961958d2-5717-48b2-a083-57a874a4c1c0": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }
