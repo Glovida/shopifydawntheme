@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "b6a7474f-9f38-4e8a-8bb8-7309907eedf0": {
@@ -16,7 +16,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glovida_9.9_Sale_v2_-_3.jpg",
+            "image": "shopify://shop_images/Glovida_9.9_Sale_v2_-_3.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -34,12 +34,12 @@
         "8424de41-2c05-4ea9-a213-677f9ad9dd81": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9.webp",
+            "image": "shopify://shop_images/9.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "button_style_secondary": false,
             "box_align": "bottom-center",
             "show_text_box": false,
@@ -52,7 +52,7 @@
         "4f6566ca-6591-4617-9d7d-c5afe8300398": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8_1.webp",
+            "image": "shopify://shop_images/8_1.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -70,7 +70,7 @@
         "1d81c32e-18a6-434b-95de-5b19571cb7aa": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_1.webp",
+            "image": "shopify://shop_images/6_1.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -113,12 +113,12 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glovida_9.9_Sale_v2_-_1_3ea8ac2d-57b1-4e57-b9c9-7f94a3951355.jpg",
+            "image": "shopify://shop_images/Glovida_9.9_Sale_v2_-_1_3ea8ac2d-57b1-4e57-b9c9-7f94a3951355.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/pages\/birthdaysale",
+            "link": "shopify://pages/sexual-wellness-september",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -131,7 +131,7 @@
         "template--19576119034150__e4568620-3ad8-4e42-88a0-074461f602b3-1688542893b52b183c-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.webp",
+            "image": "shopify://shop_images/3.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -149,7 +149,7 @@
         "template--19576119034150__e4568620-3ad8-4e42-88a0-074461f602b3-1688542893b52b183c-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1.webp",
+            "image": "shopify://shop_images/1.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -167,7 +167,7 @@
         "df3d8be5-b2bb-4861-bf5a-20e45bae3c11": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.webp",
+            "image": "shopify://shop_images/2.webp",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -210,7 +210,7 @@
         "h1 {text-align: center; margin-bottom: 5px;}"
       ],
       "settings": {
-        "custom_liquid": "<h1>Glovida<\/h1>",
+        "custom_liquid": "<h1>Glovida</h1>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -252,7 +252,7 @@
         "h2 {text-align: center; font-weight: bold;}"
       ],
       "settings": {
-        "custom_liquid": "<div>\n<h2>Why Choose Glovida?<\/h2>\n<\/div>\n<div class=\"f\">\n    <div class=\"l\">\n        <div class=\"wa\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/moneyhands_1.webp?v=1687929738\" alt=\"Logo of 2 hands holding a coin\" width=\"80\" height=\"80\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">More Than 500 Products Available<\/div>\n                <div class=\"d\">We offer a vast selection of health and beauty products that won't break the bank, making wellness accessible to everyone.<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wb\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/bundle2_1.webp?v=1687929738\" alt=\"Logo of 3 boxes stacked together\" width=\"80\" height=\"80\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Cost Savings With Bundles<\/div>\n                <div class=\"d\">Maximize your budget with Glovida's value-packed bundles, designed to give you more for less.<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n    <div class=\"k\">\n        <div class=\"wc\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/memberlogo.webp?v=1687929441\" alt=\"Logo a member in a group\" width=\"80\" height=\"80\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Become A Glo-Getter<\/div>\n                <div class=\"d\">Sign up as a member with us and get 10% off your first order. Accumulate points to enjoy even greater savings.<\/div>\n            <\/div>\n        <\/div>\n        <div class=\"wd\">\n            <div class=\"i\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0779\/4314\/4742\/files\/icon_free_consultation_1.webp?v=1687929738\" alt=\"Logo of a pharmacist\" width=\"80\" height=\"80\">\n            <\/div>\n            <div class=\"t\">\n                <div class=\"h\">Looking For Affordable Medications?<\/div>\n                <div class=\"d\">Find out more about our E-Pharmacy services at <a href=\"https:\/\/glovida-rx.com.sg\">glovida-rx.com.sg<\/a>, or contact our friendly pharmacist via Whatsapp at <a href=https:\/\/wa.me\/+6581015555>+65 81015555<\/a>.<\/div>\n            <\/div>\n        <\/div>\n     <\/div>\n<\/div>\n\n<style>\n.f {\n    display: flex;\n    justify-content: space-around;\n    max-width: 1100px;\n    margin: auto;\n}\n.l, .k {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding: 20px;\n    height: 100%;\n}\n.wa, .wb, .wc, .wd {\n    display: flex;\n    align-items: flex-start;\n    gap: 1rem;\n    padding: 1rem;\n}\n.i img {\n    height: 80px;\n    object-fit: cover;\n}\n.t {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 100%;\n}\n.h {\n    font-weight: 600;\n    font-size: 20px;\n    margin: 0.5rem 0;\n}\n.d {\n    margin: 0.5rem 0;\n    font-size: 15px;\n}\n@media (max-width: 768px) {\n    .f {\n        flex-direction: column;\n    }\n    .l, .k {\n        width: 100%;\n        padding: 0;\n    }\n}\n<\/style>",
+        "custom_liquid": "<div>\n<h2>Why Choose Glovida?</h2>\n</div>\n<div class=\"f\">\n    <div class=\"l\">\n        <div class=\"wa\">\n            <div class=\"i\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0779/4314/4742/files/moneyhands_1.webp?v=1687929738\" alt=\"Logo of 2 hands holding a coin\" width=\"80\" height=\"80\">\n            </div>\n            <div class=\"t\">\n                <div class=\"h\">More Than 500 Products Available</div>\n                <div class=\"d\">We offer a vast selection of health and beauty products that won't break the bank, making wellness accessible to everyone.</div>\n            </div>\n        </div>\n        <div class=\"wb\">\n            <div class=\"i\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0779/4314/4742/files/bundle2_1.webp?v=1687929738\" alt=\"Logo of 3 boxes stacked together\" width=\"80\" height=\"80\">\n            </div>\n            <div class=\"t\">\n                <div class=\"h\">Cost Savings With Bundles</div>\n                <div class=\"d\">Maximize your budget with Glovida's value-packed bundles, designed to give you more for less.</div>\n            </div>\n        </div>\n     </div>\n    <div class=\"k\">\n        <div class=\"wc\">\n            <div class=\"i\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0779/4314/4742/files/memberlogo.webp?v=1687929441\" alt=\"Logo a member in a group\" width=\"80\" height=\"80\">\n            </div>\n            <div class=\"t\">\n                <div class=\"h\">Become A Glo-Getter</div>\n                <div class=\"d\">Sign up as a member with us and get 10% off your first order. Accumulate points to enjoy even greater savings.</div>\n            </div>\n        </div>\n        <div class=\"wd\">\n            <div class=\"i\">\n                <img src=\"https://cdn.shopify.com/s/files/1/0779/4314/4742/files/icon_free_consultation_1.webp?v=1687929738\" alt=\"Logo of a pharmacist\" width=\"80\" height=\"80\">\n            </div>\n            <div class=\"t\">\n                <div class=\"h\">Looking For Affordable Medications?</div>\n                <div class=\"d\">Find out more about our E-Pharmacy services at <a href=\"https://glovida-rx.com.sg\">glovida-rx.com.sg</a>, or contact our friendly pharmacist via Whatsapp at <a href=https://wa.me/+6581015555>+65 81015555</a>.</div>\n            </div>\n        </div>\n     </div>\n</div>\n\n<style>\n.f {\n    display: flex;\n    justify-content: space-around;\n    max-width: 1100px;\n    margin: auto;\n}\n.l, .k {\n    display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    padding: 20px;\n    height: 100%;\n}\n.wa, .wb, .wc, .wd {\n    display: flex;\n    align-items: flex-start;\n    gap: 1rem;\n    padding: 1rem;\n}\n.i img {\n    height: 80px;\n    object-fit: cover;\n}\n.t {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    width: 100%;\n}\n.h {\n    font-weight: 600;\n    font-size: 20px;\n    margin: 0.5rem 0;\n}\n.d {\n    margin: 0.5rem 0;\n    font-size: 15px;\n}\n@media (max-width: 768px) {\n    .f {\n        flex-direction: column;\n    }\n    .l, .k {\n        width: 100%;\n        padding: 0;\n    }\n}\n</style>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -285,9 +285,7 @@
         "template--18198354034971__0af3f324-40f5-43a2-9622-a432f7f99e76-16793688583f9649a0-1",
         "template--18198354034971__0af3f324-40f5-43a2-9622-a432f7f99e76-16793688583f9649a0-2"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "Shop By Category",
         "heading_size": "h2",
@@ -328,9 +326,7 @@
         "template--18198354034971__a5a3a75e-ac06-4ed5-bad1-8a212d77eaa7-16793762117c7f74c1-1",
         "998c1a6c-16ef-431a-96e9-4ddd06808df6"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -387,7 +383,7 @@
         "@media screen and (max-width: 1119px) {.c {flex-direction: column; width: 100px; height: 100px; } .c img {width: 40px; height: 40px; }}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"a\">\n    <h2>Find a treatment<\/h2>\n    <h3 style=\"font-size: 20px\">\n        Choose a symptom to find the right OTC medication for you\n    <\/h3>\n    <div class=\"b\" style=\"text-align: center; line-height: 17px; font-weight: bold;\">\n<a href=\"\/collections\/allergy-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/mucus.png?v=1684814196\" alt=\"Runny Nose Icon\" loading=\"lazy\">\n            <p>Nasal Congestion<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/cough-cold\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cough.png?v=1684814196\" alt=\"Man Coughing Icon\" loading=\"lazy\">\n            <p>Cough & Cold<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/sores-and-ulcers\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/cold-sore.png?v=1684814196\" alt=\"Cold Sore Icon\" loading=\"lazy\">\n            <p>Sores & Ulcers<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/probiotics-digestive-health\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/intestine.png?v=1684814196\" alt=\"Intestine Icon\" loading=\"lazy\">\n            <p>Digestive Issues<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/eczema-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eczema.png?v=1684814196\" alt=\"Eczema on Arm Icon\" loading=\"lazy\">\n            <p>Eczema<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/eye-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/eye-drops_1_405b40d7-c6f7-4500-92dc-e221fadc6c7a.png?v=1684814196\" alt=\"Putting Eye Drops to an Eye Icon\" loading=\"lazy\">\n            <p>Dry Eyes<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/immunity-boosters\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/immunity.png?v=1684814196\" alt=\"Shield with Health Cross Icon\" loading=\"lazy\">\n            <p>Immunity Boosters<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/joint-health\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/femur.png?v=1684814196\" alt=\"Bone Joint Icon\" loading=\"lazy\">\n            <p>Joint Pain<\/p>\n        <\/div>\n<\/a>\n<a href=\"\/collections\/feminine-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0730\/2247\/2475\/files\/female-symbol.png?v=1684814197\" alt=\"Female Representation Icon\" loading=\"lazy\">\n            <p>Feminine Care<\/p>\n        <\/div>\n<\/a>\n    <\/div>\n<\/div>",
+        "custom_liquid": "<div class=\"a\">\n    <h2>Find a treatment</h2>\n    <h3 style=\"font-size: 20px\">\n        Choose a symptom to find the right OTC medication for you\n    </h3>\n    <div class=\"b\" style=\"text-align: center; line-height: 17px; font-weight: bold;\">\n<a href=\"/collections/allergy-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/mucus.png?v=1684814196\" alt=\"Runny Nose Icon\" loading=\"lazy\">\n            <p>Nasal Congestion</p>\n        </div>\n</a>\n<a href=\"/collections/cough-cold\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/cough.png?v=1684814196\" alt=\"Man Coughing Icon\" loading=\"lazy\">\n            <p>Cough & Cold</p>\n        </div>\n</a>\n<a href=\"/collections/sores-and-ulcers\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/cold-sore.png?v=1684814196\" alt=\"Cold Sore Icon\" loading=\"lazy\">\n            <p>Sores & Ulcers</p>\n        </div>\n</a>\n<a href=\"/collections/probiotics-digestive-health\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/intestine.png?v=1684814196\" alt=\"Intestine Icon\" loading=\"lazy\">\n            <p>Digestive Issues</p>\n        </div>\n</a>\n<a href=\"/collections/eczema-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/eczema.png?v=1684814196\" alt=\"Eczema on Arm Icon\" loading=\"lazy\">\n            <p>Eczema</p>\n        </div>\n</a>\n<a href=\"/collections/eye-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/eye-drops_1_405b40d7-c6f7-4500-92dc-e221fadc6c7a.png?v=1684814196\" alt=\"Putting Eye Drops to an Eye Icon\" loading=\"lazy\">\n            <p>Dry Eyes</p>\n        </div>\n</a>\n<a href=\"/collections/immunity-boosters\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/immunity.png?v=1684814196\" alt=\"Shield with Health Cross Icon\" loading=\"lazy\">\n            <p>Immunity Boosters</p>\n        </div>\n</a>\n<a href=\"/collections/joint-health\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/femur.png?v=1684814196\" alt=\"Bone Joint Icon\" loading=\"lazy\">\n            <p>Joint Pain</p>\n        </div>\n</a>\n<a href=\"/collections/feminine-care\" style=\"text-decoration: none;\">\n        <div class=\"c\" style=\"padding: 12px; background-color: #E4FAF7;\">\n            <img src=\"https://cdn.shopify.com/s/files/1/0730/2247/2475/files/female-symbol.png?v=1684814197\" alt=\"Female Representation Icon\" loading=\"lazy\">\n            <p>Feminine Care</p>\n        </div>\n</a>\n    </div>\n</div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -421,7 +417,7 @@
         ".counter {font-weight: bold;}"
       ],
       "settings": {
-        "custom_liquid": "<h2 class=\"com\">\nBe Part Of Our Growing Community Of Over\n<span class=\"counter\" \ndata-target=\"20000\">0<\/span>\nGlo-getters Today!\n<\/h2>\n\n<script>\n  const counter = document.querySelector('.counter');\n  const target = counter.getAttribute('data-target');\n  let counterNum = 0;\n  let duration = 200; \/\/ Duration in milliseconds\n\n  const counterSpeed = +target \/ duration;\n\n  function counterAnimate() {\n    if (counterNum < target) {\n      counterNum += counterSpeed;\n      counter.innerText = Math.ceil(counterNum);\n      requestAnimationFrame(counterAnimate);\n    } else {\n      counter.innerText = target;\n    }\n  }\n\n  \/\/ Create a new Intersection Observer instance\n  let observer = new IntersectionObserver((entries, observer) => {\n    \/\/ Loop over the entries\n    entries.forEach(entry => {\n      \/\/ If the element is visible\n      if (entry.isIntersecting) {\n        counterAnimate();\n        \/\/ Stop observing the target\n        observer.unobserve(counter);\n      }\n    });\n  });\n\n  \/\/ Start observing an element\n  observer.observe(counter);\n<\/script>",
+        "custom_liquid": "<h2 class=\"com\">\nBe Part Of Our Growing Community Of Over\n<span class=\"counter\" \ndata-target=\"20000\">0</span>\nGlo-getters Today!\n</h2>\n\n<script>\n  const counter = document.querySelector('.counter');\n  const target = counter.getAttribute('data-target');\n  let counterNum = 0;\n  let duration = 200; // Duration in milliseconds\n\n  const counterSpeed = +target / duration;\n\n  function counterAnimate() {\n    if (counterNum < target) {\n      counterNum += counterSpeed;\n      counter.innerText = Math.ceil(counterNum);\n      requestAnimationFrame(counterAnimate);\n    } else {\n      counter.innerText = target;\n    }\n  }\n\n  // Create a new Intersection Observer instance\n  let observer = new IntersectionObserver((entries, observer) => {\n    // Loop over the entries\n    entries.forEach(entry => {\n      // If the element is visible\n      if (entry.isIntersecting) {\n        counterAnimate();\n        // Stop observing the target\n        observer.unobserve(counter);\n      }\n    });\n  });\n\n  // Start observing an element\n  observer.observe(counter);\n</script>",
         "color_scheme": "background-1",
         "padding_top": 24,
         "padding_bottom": 12
@@ -431,9 +427,8 @@
       "type": "apps",
       "blocks": {
         "3002416e-6a8c-47a1-bdef-51734c69fb37": {
-          "type": "shopify:\/\/apps\/google-reviews-plus\/blocks\/app-block\/d11c8893-a181-4aff-a280-7446d42cec3b",
-          "settings": {
-          }
+          "type": "shopify://apps/rocket-google-reviews/blocks/app-block/d11c8893-a181-4aff-a280-7446d42cec3b",
+          "settings": {}
         }
       },
       "block_order": [
@@ -447,7 +442,7 @@
       "type": "apps",
       "blocks": {
         "961958d2-5717-48b2-a083-57a874a4c1c0": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "html_area": ""
           }
@@ -473,7 +468,7 @@
         "template--18633575137563__6bdebe95-539d-487d-adae-ab9f9d7eba9a-16847245819a548d05-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Welcome to the world of Glovida!<\/p><p>Glovida offers you a convenient, affordable way to get a wide variety of health and beauty products at the best prices and have them delivered right to the comfort of your own home.<\/p>",
+            "text": "<p>Welcome to the world of Glovida!</p><p>Glovida offers you a convenient, affordable way to get a wide variety of health and beauty products at the best prices and have them delivered right to the comfort of your own home.</p>",
             "text_style": "body"
           }
         },
@@ -481,7 +476,7 @@
           "type": "button",
           "settings": {
             "button_label": "More About Glovida",
-            "button_link": "shopify:\/\/pages\/about-glovida"
+            "button_link": "shopify://pages/about-glovida"
           }
         }
       },
@@ -517,13 +512,12 @@
         "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Get 10% off your first order when you join our mailing list!<\/p>"
+            "text": "<p>Get 10% off your first order when you join our mailing list!</p>"
           }
         },
         "template--19576119034150__96da0751-83f7-416b-ae75-d3cb0a7b78c1-email_form-1": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
